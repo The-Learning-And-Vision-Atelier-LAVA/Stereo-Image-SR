@@ -1,5 +1,6 @@
 ### <img src="https://raw.github.com/YingqianWang/Awesome-Stereo-Image-SR/master/Fig/Thumbnail.jpg" width="1000">
-#### **We present a collection of papers, datasets, and repositories for *Stereo Image Super-Resolution*. This repository will be updated on a regular basis, so stay tuned~~🎉🎉🎉**
+#### With recent advances in stereo vision, dual cameras are commonly adopted in mobile phones and autonomous vehicles. Using the complementary information provided by binocular systems, the resolution of image pairs can be enhanced by stereo image super-resolution (SR) algorithms. In this repository, We present a collection of papers and datasets on *stereo image SR*, together with their codes and repos. 
+#### This repository will be updated on a regular basis, so stay tuned~~🎉🎉🎉
 
 ## Datasets
 
@@ -13,11 +14,11 @@
 
 
 ## Methods
-|     Model     |   Published |  Codes | Keywords | Outperforms |
+|     Model     |   Published |  Codes | Keywords | Performance |
 | :----------: |  :-----: | :-------: | :-------: | :-------: |
 | ***StereoSR*** | [**CVPR2018**](http://openaccess.thecvf.com/content_cvpr_2018/papers/Jeon_Enhancing_the_Spatial_CVPR_2018_paper.pdf) | N/A | **pioneering work** | ***SRCNN, VDSR***
 | ***PASSRnet*** | [**CVPR2019**](http://openaccess.thecvf.com/content_CVPR_2019/papers/Wang_Learning_Parallax_Attention_for_Stereo_Image_Super-Resolution_CVPR_2019_paper.pdf) | [**PyTorch**](https://github.com/LongguangWang/PASSRnet) | **parallax attention** | ***StereoSR, DRCN, DRRN, LapSRN, SRResNet***
-| ***SAM*** | [**SPL2020**](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8998204) | [**PyTorch**](https://github.com/XinyiYing/SAM) | **stereo attention module, extend arbitrary SISR networks for stereo image SR** | ***SRResNet < PASSRnet < SRResNet+SAM***
+| ***SAM*** | [**SPL2020**](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8998204) | [**PyTorch**](https://github.com/XinyiYing/SAM) | **stereo attention, equipped with SISR networks for stereo image SR** | ***SRResNet < PASSRnet < SRResNet+SAM***
 | ***SPAMnet*** | [**AAAI2020**](https://www.aaai.org/Papers/AAAI/2020GB/AAAI-SongW.10348.pdf) | N/A | **stereo consistency, self-and-parallax attention** | ***PASSRnet***|
 | ***DCSSRnet*** | [**ICLRW2020**](https://arxiv.org/pdf/2003.08539.pdf) | N/A | **endoscopic image, disparity-constrained parallax attention** | ***PASSRnet***
 | ***NNRANet*** | [**ICASSP2020**](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9054687) | N/A | **non-local, nested residual group** | ***PASSRnet***
