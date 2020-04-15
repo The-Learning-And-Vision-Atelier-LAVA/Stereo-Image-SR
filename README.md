@@ -13,7 +13,8 @@
 
 
 ## Methods
-|     Model     |   Published |  Codes | Keywords |
-| :----------: |  :-----: | :-------: | :-------: |
-| ***StereoSR*** | [***CVPR2018***](http://openaccess.thecvf.com/content_cvpr_2018/papers/Jeon_Enhancing_the_Spatial_CVPR_2018_paper.pdf) | N/A | Pioneering Work |
-| ***PASSRnet*** | [***CVPR2019***](http://openaccess.thecvf.com/content_CVPR_2019/papers/Wang_Learning_Parallax_Attention_for_Stereo_Image_Super-Resolution_CVPR_2019_paper.pdf) | [***PyTorch***](https://github.com/LongguangWang/PASSRnet) | Parallax Attention, Flickr1024 Dataset |
+|     Model     |   Published |  Codes | Keywords | Outperforms |
+| :----------: |  :-----: | :-------: | :-------: | :-------: |
+| ***StereoSR*** | [***CVPR2018***](http://openaccess.thecvf.com/content_cvpr_2018/papers/Jeon_Enhancing_the_Spatial_CVPR_2018_paper.pdf) | N/A | ***pioneering work*** | ***SRCNN, VDSR***
+| ***PASSRnet*** | [***CVPR2019***](http://openaccess.thecvf.com/content_CVPR_2019/papers/Wang_Learning_Parallax_Attention_for_Stereo_Image_Super-Resolution_CVPR_2019_paper.pdf) | [***PyTorch***](https://github.com/LongguangWang/PASSRnet) | ***parallax attention, flexible w.r.t. disparity variations*** | ***StereoSR, SRResNet***
+| ***SAM*** | [***SPL2020***](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8998204) | [***PyTorch***](https://github.com/XinyiYing/SAM) | ***extend SISR networks for stereo image SR*** | ***SRResNet+SAM > PASSRnet***
