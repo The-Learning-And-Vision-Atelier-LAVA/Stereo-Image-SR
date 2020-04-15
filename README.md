@@ -13,6 +13,7 @@
 
 
 ## Methods
-|     Model     |   Published |  Codes | Comments |
+|     Model     |   Published |  Codes | Keywords |
 | :----------: |  :-----: | :-------: | :-------: |
-| ***StereoSR*** | [***CVPR2018***](http://openaccess.thecvf.com/content_cvpr_2018/papers/Jeon_Enhancing_the_Spatial_CVPR_2018_paper.pdf) | N/A | |
+| ***StereoSR*** | [***CVPR2018***](http://openaccess.thecvf.com/content_cvpr_2018/papers/Jeon_Enhancing_the_Spatial_CVPR_2018_paper.pdf) | N/A | Pioneering Work |
+| ***PASSRnet*** | [***CVPR2019***](http://openaccess.thecvf.com/content_CVPR_2019/papers/Wang_Learning_Parallax_Attention_for_Stereo_Image_Super-Resolution_CVPR_2019_paper.pdf) | [***PyTorch***](https://github.com/LongguangWang/PASSRnet) | Parallax Attention, Flickr1024 Dataset |
