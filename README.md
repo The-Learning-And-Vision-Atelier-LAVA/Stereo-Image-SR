@@ -17,6 +17,6 @@
 | :----------: |  :-----: | :-------: | :-------: | :-------: |
 | ***StereoSR*** | [***CVPR2018***](http://openaccess.thecvf.com/content_cvpr_2018/papers/Jeon_Enhancing_the_Spatial_CVPR_2018_paper.pdf) | N/A | **pioneering work** | ***SRCNN, VDSR***
 | ***PASSRnet*** | [***CVPR2019***](http://openaccess.thecvf.com/content_CVPR_2019/papers/Wang_Learning_Parallax_Attention_for_Stereo_Image_Super-Resolution_CVPR_2019_paper.pdf) | [***PyTorch***](https://github.com/LongguangWang/PASSRnet) | **parallax attention** | ***StereoSR, DRCN, DRRN, LapSRN, SRResNet***
-| ***SAM*** | [***SPL2020***](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8998204) | [***PyTorch***](https://github.com/XinyiYing/SAM) | **extend SISR networks for stereo image SR** | ***SRResNet+SAM > PASSRnet***
+| ***SAM*** | [***SPL2020***](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8998204) | [***PyTorch***](https://github.com/XinyiYing/SAM) | **stereo attention module, extend arbitrary SISR networks for stereo image SR** | ***SRResNet < PASSRnet < SRResNet+SAM***
 | ***SPAMnet*** | [***AAAI2020***](https://www.aaai.org/Papers/AAAI/2020GB/AAAI-SongW.10348.pdf) | N/A | **stereo consistency, self-and-parallax attention** | ***PASSRnet***|
 | ***NNRANet*** | [***ICASSP2020***](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9054687) | N/A | **non-local, nested residual group** | ***PASSRnet***
