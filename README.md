@@ -14,7 +14,7 @@
 
 
 ## Methods
-|     Model     |   Published |  Codes | Keywords | Performance |
+|     Model     |   Published |  Codes | Keywords | Better Performance than|
 | :----------: |  :-----: | :-------: | :-------: | :-------: |
 | ***StereoSR*** | [**CVPR2018**](http://openaccess.thecvf.com/content_cvpr_2018/papers/Jeon_Enhancing_the_Spatial_CVPR_2018_paper.pdf) | N/A | **pioneering work** | ***SRCNN, VDSR***
 | ***PASSRnet*** | [**CVPR2019**](http://openaccess.thecvf.com/content_CVPR_2019/papers/Wang_Learning_Parallax_Attention_for_Stereo_Image_Super-Resolution_CVPR_2019_paper.pdf) | [**PyTorch**](https://github.com/LongguangWang/PASSRnet) | **parallax attention** | ***StereoSR, DRCN, DRRN, LapSRN, SRResNet***
