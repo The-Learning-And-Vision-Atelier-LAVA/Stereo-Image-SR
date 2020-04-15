@@ -5,7 +5,7 @@
 
 |     Name     |   links |  Comments |
 | :----------: |  :-----: | :-------: |
-|     ***Flickr1024***     | [***website***](https://yingqianwang.github.io/Flickr1024/ target="_blank") & [***paper***](http://openaccess.thecvf.com/content_ICCVW_2019/papers/LCI/Wang_Flickr1024_A_Large-Scale_Dataset_for_Stereo_Image_Super-Resolution_ICCVW_2019_paper.pdf) | ***large-scale; 1024 high-quality images pairs; diverse senarios*** |
+|     ***Flickr1024***     | ***<a href="https://yingqianwang.github.io/Flickr1024/" target="_blank">website</a>*** & ***<a href="http://openaccess.thecvf.com/content_ICCVW_2019/papers/LCI/Wang_Flickr1024_A_Large-Scale_Dataset_for_Stereo_Image_Super-Resolution_ICCVW_2019_paper.pdf" target="_blank">paper</a>*** | ***large-scale; 1024 high-quality images pairs; diverse senarios*** |
 |     ***Middlebury***     | [***website***](http://vision.middlebury.edu/stereo/) | ***several sub-datasets; indoor scenarios; groundtruth disparity*** |
 |     ***KITTI2012***     | [***website***](http://www.cvlibs.net/datasets/kitti/index.php) | ***driving perspectives; multi-role; groundtruth disparity*** |
 |     ***KITTI2015***     | [***website***](http://www.cvlibs.net/datasets/kitti/index.php) | ***driving perspectives; multi-role; groundtruth disparity*** |
