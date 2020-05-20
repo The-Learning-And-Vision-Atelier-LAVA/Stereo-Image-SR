@@ -24,6 +24,7 @@
 | **NNRANet** | **--ICASSP2020--**<br> [**paper**](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9054687) | -- | **non-local, nested residual group** | **StereoSR, PASSRnet**, *SRCNN, VDSR, DRRN, LapSRN* |
 
 #### Notes: * denotes unofficial implementation.
+#### The test scenes used in *PASSRnet* and *SAM* can be download [**here**](https://wyqdatabase.s3-us-west-1.amazonaws.com/StereoImageSR-testset.zip)
 
 ## Other Recources
 * [**YapengTian/Single-Image-Super-Resolution**](https://github.com/YapengTian/Single-Image-Super-Resolution)
