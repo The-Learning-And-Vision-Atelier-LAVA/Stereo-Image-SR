@@ -22,7 +22,7 @@
 | **SPAMnet** | **--AAAI2020--**<br> [**paper**](https://www.aaai.org/Papers/AAAI/2020GB/AAAI-SongW.10348.pdf) | -- | **stereo consistency, self-and-parallax attention** | **StereoSR, PASSRnet**, *SRCNN, VDSR, DRRN, LapSRN* |
 | **DCSSRnet** | **--ICLRW2020--**<br> [**paper**](https://arxiv.org/pdf/2003.08539.pdf) | -- | **endoscopic image, disparity-constrained parallax attention** | **StereoSR, PASSRnet**, *SRCNN, VDSR, DRRN* |
 | **NNRANet** | **--ICASSP2020--**<br> [**paper**](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9054687) | -- | **non-local, nested residual group** | **StereoSR, PASSRnet**, *SRCNN, VDSR, DRRN, LapSRN* |
-| **StereoIRN** | **--CVPR2020--**<br> [**paper**](http://openaccess.thecvf.com/content_CVPR_2020/papers/Yan_Disparity-Aware_Domain_Adaptation_in_Stereo_Image_Restoration_CVPR_2020_paper.pdf) | -- | **stereo image restoration** | **StereoSR, PASSRnet**, *EDSR, SRNTT, DUF, SMPC* | 
+| **DASSR** | **--CVPR2020--**<br> [**paper**](http://openaccess.thecvf.com/content_CVPR_2020/papers/Yan_Disparity-Aware_Domain_Adaptation_in_Stereo_Image_Restoration_CVPR_2020_paper.pdf) | -- | **domain adaptive, stereo image restoration** | **StereoSR, PASSRnet**, *EDSR, SRNTT, DUF, SMPC* | 
 
 #### Notes: * denotes unofficial implementation.
 
