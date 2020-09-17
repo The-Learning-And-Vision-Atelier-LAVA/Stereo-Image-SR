@@ -8,9 +8,8 @@
 | :----------: |  :-----: | :-------: |
 |     **Flickr1024**     | [**website**](https://yingqianwang.github.io/Flickr1024/) & [**paper**](http://openaccess.thecvf.com/content_ICCVW_2019/papers/LCI/Wang_Flickr1024_A_Large-Scale_Dataset_for_Stereo_Image_Super-Resolution_ICCVW_2019_paper.pdf) | **large-scale; high-quality images; diverse senarios** |
 |     **Middlebury**     | [**website**](http://vision.middlebury.edu/stereo/data/) & [**paper**](https://elib.dlr.de/90624/1/ScharsteinEtal2014.pdf) | **indoor scenarios; groundtruth disparity** |
-|     **KITTI2012**     | [**website**](http://www.cvlibs.net/datasets/kitti/eval_stereo_flow.php?benchmark=stereo) & [**paper**](http://ww.cvlibs.net/publications/Geiger2012CVPR.pdf) | **driving perspectives; multi-role; groundtruth disparity** |
-|     **KITTI2015**     | [**website**](http://www.cvlibs.net/datasets/kitti/eval_scene_flow.php?benchmark=stereo) & [**paper**](http://openaccess.thecvf.com/content_cvpr_2015/papers/Menze_Object_Scene_Flow_2015_CVPR_paper.pdf) | **driving perspectives; multi-role; groundtruth disparity** |
-|     **Holopix50k**     | [**website**](http://github.com/leiainc/holopix50k) & [**paper**](https://arxiv.org/pdf/2003.11172.pdf) | **large-scale; 50K images; diverse senarios** |
+|     **KITTI2012**     | [**website**](http://www.cvlibs.net/datasets/kitti/eval_stereo_flow.php?benchmark=stereo) & [**paper**](http://ww.cvlibs.net/publications/Geiger2012CVPR.pdf) | **driving perspectives; groundtruth disparity** |
+|     **KITTI2015**     | [**website**](http://www.cvlibs.net/datasets/kitti/eval_scene_flow.php?benchmark=stereo) & [**paper**](http://openaccess.thecvf.com/content_cvpr_2015/papers/Menze_Object_Scene_Flow_2015_CVPR_paper.pdf) | **driving perspectives; groundtruth disparity** |
 
 
 ## Methods
@@ -25,11 +24,4 @@
 | **DASSR** | **--CVPR2020--**<br> [**paper**](http://openaccess.thecvf.com/content_CVPR_2020/papers/Yan_Disparity-Aware_Domain_Adaptation_in_Stereo_Image_Restoration_CVPR_2020_paper.pdf) | -- | **domain adaptive, stereo image restoration** | **StereoSR, PASSRnet**, *EDSR, SRNTT, DUF, SMPC* | 
 
 #### Notes: * denotes unofficial implementation.
-
-
-## Other Recources
-* [**YapengTian/Single-Image-Super-Resolution**](https://github.com/YapengTian/Single-Image-Super-Resolution)
-* [**LoSealL/VideoSuperResolution**](https://github.com/LoSealL/VideoSuperResolution)
-* [**ChaofWang/Awesome-Super-Resolution**](https://github.com/ChaofWang/Awesome-Super-Resolution)
-* [**ptkin/Awesome-Super-Resolution**](https://github.com/ptkin/Awesome-Super-Resolution)
 
