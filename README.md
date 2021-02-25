@@ -13,16 +13,16 @@
 
 
 ## Methods
-|     Model     |   Published |  Codes | Keywords | Better Performance than|
-| :----------: |  :-----: | :-------: | :-------: | :-------: |
-| **StereoSR** | **--CVPR2018--**<br> [**paper**](http://openaccess.thecvf.com/content_cvpr_2018/papers/Jeon_Enhancing_the_Spatial_CVPR_2018_paper.pdf) & [**supp**](http://openaccess.thecvf.com/content_cvpr_2018/Supplemental/0493-supp.pdf) | [**TensorFlow**](https://github.com/PeterZhouSZ/stereosr) | **pioneering work** | *SRCNN, VDSR*
-| **PASSRnet** | **--CVPR2019--**<br> [**paper**](http://openaccess.thecvf.com/content_CVPR_2019/papers/Wang_Learning_Parallax_Attention_for_Stereo_Image_Super-Resolution_CVPR_2019_paper.pdf) & [**supp**](http://openaccess.thecvf.com/content_CVPR_2019/supplemental/Wang_Learning_Parallax_Attention_CVPR_2019_supplemental.pdf)<br>**--TPAMI2020--**<br> [**paper**](https://arxiv.org/pdf/2009.08250.pdf) | [**PyTorch**](https://github.com/LongguangWang/PASSRnet) | **parallax attention** | **StereoSR**, *SRCNN, VDSR, DRCN, DRRN, LapSRN*
-| **SAM** | **--SPL2020--**<br> [**paper**](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8998204) | [**PyTorch**](https://github.com/XinyiYing/SAM) | **stereo attention, equipped with SISR networks for stereo image SR** | *SRResNet* < **PASSRnet** < *SRResNet+SAM* |
-| **SPAMnet** | **--AAAI2020--**<br> [**paper**](https://aaai.org/ojs/index.php/AAAI/article/view/6880/6734) | -- | **stereo consistency, self-and-parallax attention** | **StereoSR, PASSRnet**, *SRCNN, VDSR, DRRN, LapSRN* |
-| **DASSR** | **--CVPR2020--**<br> [**paper**](http://openaccess.thecvf.com/content_CVPR_2020/papers/Yan_Disparity-Aware_Domain_Adaptation_in_Stereo_Image_Restoration_CVPR_2020_paper.pdf) | -- | **domain adaptive, stereo image restoration** | **StereoSR, PASSRnet**, *EDSR, SRNTT, DUF, SMPC* | 
-| **IMSSRnet** | **--TCSVT2020--**<br> [**paper**](https://ieeexplore.ieee.org/document/9253563/) | -- | **interaction module** | **StereoSR, PASSRnet** |
-| **iPASSR** | **--arXiv2020--**<br> [**paper**](https://arxiv.org/pdf/2011.03802.pdf) | [**PyTorch**](https://github.com/YingqianWang/iPASSR) | **bi-directional parallax attention, inline occlusion handling, illuminance-robust losses** | **StereoSR, PASSRnet, SRRes+SAM**, comparable or even better than *EDSR, RDN, RCAN* |
-| **CPASSRnet** | **--TMM2021--**<br> [**paper**](https://ieeexplore.ieee.org/document/9318556) | [**Tensorflow**](https://github.com/canqChen/CPASSRnet) | **cross parallax attention module** | **StereoSR, PASSRnet**, *SRCNN, LapSRN，SRDense* |
+|     Model     |  Paper  | Performance |
+| :----------: |  :-------------------------------------: | :-------------: |
+| [**StereoSR**](https://github.com/PeterZhouSZ/stereosr) | **Enhancing the Spatial Resolution of Stereo Images using a Parallax Prior, CVPR2018.** [**pdf**](http://openaccess.thecvf.com/content_cvpr_2018/papers/Jeon_Enhancing_the_Spatial_CVPR_2018_paper.pdf) | better than *SRCNN, VDSR*
+| [**PASSRnet**](https://github.com/LongguangWang/PASSRnet) | **Learning Parallax Attention for Stereo Image Super-Resolution, CVPR2019 & TPAMI2020.** [**pdf**](http://openaccess.thecvf.com/content_CVPR_2019/papers/Wang_Learning_Parallax_Attention_for_Stereo_Image_Super-Resolution_CVPR_2019_paper.pdf) | better than **StereoSR**, *SRCNN, VDSR, DRCN, DRRN, LapSRN*
+| [**SAM**](https://github.com/XinyiYing/SAM) | **A Stereo Attention Module for Stereo Image Super-Resolution, SPL2020.** [**pdf**](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8998204) | *SRResNet* < **PASSRnet** < *SRResNet+SAM* |
+| **SPAMnet** | **Stereoscopic image super-resolution with stereo consistent feature, AAAI2020.** [**pdf**](https://aaai.org/ojs/index.php/AAAI/article/view/6880/6734) | better than **StereoSR, PASSRnet**, *SRCNN, VDSR, DRRN, LapSRN* |
+| **DASSR** | **Disparity-Aware Domain Adaptation in Stereo Image Restoration, CVPR2020.** | better than **StereoSR, PASSRnet**, *EDSR, SRNTT, DUF, SMPC* | 
+| **IMSSRnet** | **Deep Stereoscopic Image Super-Resolution via Interaction Module, TCSVT2020.**| better than **StereoSR, PASSRnet** |
+| [**iPASSR**](https://github.com/YingqianWang/iPASSR) | **Symmetric Parallax Attention for Stereo Image Super-Resolution, arXiv2020.** [**pdf**](https://arxiv.org/pdf/2011.03802.pdf), [**demo**](https://wyqdatabase.s3-us-west-1.amazonaws.com/iPASSR_visual_comparison.mp4) | better than **StereoSR, PASSRnet, SRRes+SAM**, comparable to *EDSR, RDN, RCAN* |
+| [**CPASSRnet**](https://github.com/canqChen/CPASSRnet) | **Cross Parallax Attention Network for Stereo Image Super-Resolution, TMM2021.** | better than **StereoSR, PASSRnet**, *SRCNN, LapSRN，SRDense* |
 
 
 <!--
