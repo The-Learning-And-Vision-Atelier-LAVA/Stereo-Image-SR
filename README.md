@@ -15,14 +15,14 @@
 ## Methods
 |     Model     |  Paper  | Performance |
 | :----------: |  :-------------------------------------: | :-------------: |
-| [**StereoSR**](https://github.com/PeterZhouSZ/stereosr) | **Enhancing the Spatial Resolution of Stereo Images using a Parallax Prior, CVPR2018.** [**pdf**](http://openaccess.thecvf.com/content_cvpr_2018/papers/Jeon_Enhancing_the_Spatial_CVPR_2018_paper.pdf) | better than *SRCNN, VDSR*
-| [**PASSRnet**](https://github.com/LongguangWang/PASSRnet) | **Learning Parallax Attention for Stereo Image Super-Resolution, CVPR2019 & TPAMI2020.** [**pdf**](http://openaccess.thecvf.com/content_CVPR_2019/papers/Wang_Learning_Parallax_Attention_for_Stereo_Image_Super-Resolution_CVPR_2019_paper.pdf) | better than **StereoSR**, *SRCNN, VDSR, DRCN, DRRN, LapSRN*
-| [**SAM**](https://github.com/XinyiYing/SAM) | **A Stereo Attention Module for Stereo Image Super-Resolution, SPL2020.** [**pdf**](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8998204) | *SRResNet* < **PASSRnet** < *SRResNet+SAM* |
-| **SPAMnet** | **Stereoscopic image super-resolution with stereo consistent feature, AAAI2020.** [**pdf**](https://aaai.org/ojs/index.php/AAAI/article/view/6880/6734) | better than **StereoSR, PASSRnet**, *SRCNN, VDSR, DRRN, LapSRN* |
-| **DASSR** | **Disparity-Aware Domain Adaptation in Stereo Image Restoration, CVPR2020.** | better than **StereoSR, PASSRnet**, *EDSR, SRNTT, DUF, SMPC* | 
-| **IMSSRnet** | **Deep Stereoscopic Image Super-Resolution via Interaction Module, TCSVT2020.**| better than **StereoSR, PASSRnet** |
-| [**iPASSR**](https://github.com/YingqianWang/iPASSR) | **Symmetric Parallax Attention for Stereo Image Super-Resolution, arXiv2020.** [**pdf**](https://arxiv.org/pdf/2011.03802.pdf), [**demo**](https://wyqdatabase.s3-us-west-1.amazonaws.com/iPASSR_visual_comparison.mp4) | better than **StereoSR, PASSRnet, SRRes+SAM**, comparable to *EDSR, RDN, RCAN* |
-| [**CPASSRnet**](https://github.com/canqChen/CPASSRnet) | **Cross Parallax Attention Network for Stereo Image Super-Resolution, TMM2021.** | better than **StereoSR, PASSRnet**, *SRCNN, LapSRN，SRDense* |
+| [**StereoSR**](https://github.com/PeterZhouSZ/stereosr) | [**Enhancing the Spatial Resolution of Stereo Images using a Parallax Prior**](http://openaccess.thecvf.com/content_cvpr_2018/papers/Jeon_Enhancing_the_Spatial_CVPR_2018_paper.pdf), *CVPR2018*. | better than *SRCNN, VDSR*
+| [**PASSRnet**](https://github.com/LongguangWang/PASSRnet) | [**Learning Parallax Attention for Stereo Image Super-Resolution**](http://openaccess.thecvf.com/content_CVPR_2019/papers/Wang_Learning_Parallax_Attention_for_Stereo_Image_Super-Resolution_CVPR_2019_paper.pdf), *CVPR2019* & *TPAMI2020*. | better than **StereoSR**, *SRCNN, VDSR, DRCN, DRRN, LapSRN*
+| [**SAM**](https://github.com/XinyiYing/SAM) | [**A Stereo Attention Module for Stereo Image Super-Resolution**](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8998204), *SPL2020.* | *SRResNet* < **PASSRnet** < *SRResNet+SAM* |
+| **SPAMnet** | Stereoscopic image super-resolution with stereo consistent feature, *AAAI2020.* | better than **StereoSR, PASSRnet**, *SRCNN, VDSR, DRRN, LapSRN* |
+| **DASSR** | [**Disparity-Aware Domain Adaptation in Stereo Image Restoration**](https://openaccess.thecvf.com/content_CVPR_2020/papers/Yan_Disparity-Aware_Domain_Adaptation_in_Stereo_Image_Restoration_CVPR_2020_paper.pdf), *CVPR2020.* | better than **StereoSR, PASSRnet**, *EDSR, SRNTT, DUF, SMPC* |
+| **IMSSRnet** | Deep Stereoscopic Image Super-Resolution via Interaction Module, *TCSVT2020.* | better than **StereoSR, PASSRnet** |
+| [**iPASSR**](https://github.com/YingqianWang/iPASSR) | [**Symmetric Parallax Attention for Stereo Image Super-Resolution**](https://arxiv.org/pdf/2011.03802.pdf), *arXiv2020.* | better than **StereoSR, PASSRnet, SRRes+SAM**, comparable to *EDSR, RDN, RCAN* |
+| [**CPASSRnet**](https://github.com/canqChen/CPASSRnet) | Cross Parallax Attention Network for Stereo Image Super-Resolution, *TMM2021.* | better than **StereoSR, PASSRnet**, *SRCNN, LapSRN，SRDense* |
 
 
 <!--
