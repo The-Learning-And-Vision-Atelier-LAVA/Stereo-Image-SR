@@ -23,6 +23,7 @@
 | **IMSSRnet** | **Deep Stereoscopic Image Super-Resolution via Interaction Module**, ***TCSVT2020.*** | **StereoSR, PASSRnet** |
 | [**iPASSR**](https://github.com/YingqianWang/iPASSR) | [**Symmetric Parallax Attention for Stereo Image Super-Resolution**](https://arxiv.org/pdf/2011.03802.pdf), ***arXiv2020.*** | **StereoSR, PASSRnet, SRRes+SAM**,<br> *EDSR, RDN, RCAN* |
 | [**CPASSRnet**](https://github.com/canqChen/CPASSRnet) | **Cross Parallax Attention Network for Stereo Image Super-Resolution**, ***TMM2021.*** | **StereoSR, PASSRnet**, <br> *SRCNN, LapSRN，SRDense* |
+| **BSSRnet** | **Deep Bilateral Learning for Stereo Image Super-Resolution**, ***SPL2021.*** | **StereoSR, PASSRnet, SRRes+SAM**, <br> *VDSR, LapSRN，DRRN* |
 
 
 <!--
