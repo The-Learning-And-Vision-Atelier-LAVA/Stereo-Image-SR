@@ -22,7 +22,7 @@
 | **DASSR** | [**Disparity-Aware Domain Adaptation in Stereo Image Restoration**](https://openaccess.thecvf.com/content_CVPR_2020/papers/Yan_Disparity-Aware_Domain_Adaptation_in_Stereo_Image_Restoration_CVPR_2020_paper.pdf), ***CVPR2020.*** | **StereoSR, PASSRnet**,<br> *EDSR, SRNTT, DUF, SMPC* |
 | **IMSSRnet** | **Deep Stereoscopic Image Super-Resolution via Interaction Module**, ***TCSVT2020.*** | **StereoSR, PASSRnet** |
 | [**CPASSRnet**](https://github.com/canqChen/CPASSRnet) | **Cross Parallax Attention Network for Stereo Image Super-Resolution**, ***TMM2021.*** | **StereoSR, PASSRnet**, <br> *SRCNN, LapSRN，SRDense* |
-| **BSSRnet** | [**Deep Bilateral Learning for Stereo Image Super-Resolution**](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9382858), ***SPL2021.*** | **StereoSR, PASSRnet, SRRes+SAM**, <br> *VDSR, LapSRN，DRRN* |
+| [**BSSRnet**](https://github.com/xuqingyu26/BSSRnet) | [**Deep Bilateral Learning for Stereo Image Super-Resolution**](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9382858), ***SPL2021.*** | **StereoSR, PASSRnet, SRRes+SAM**, <br> *VDSR, LapSRN，DRRN* |
 | [**iPASSR**](https://github.com/YingqianWang/iPASSR) | [**Symmetric Parallax Attention for Stereo Image Super-Resolution**](https://arxiv.org/pdf/2011.03802.pdf), ***CVPRW2021.*** | **StereoSR, PASSRnet, SRRes+SAM**,<br> *EDSR, RDN, RCAN* |
 
 <!--
