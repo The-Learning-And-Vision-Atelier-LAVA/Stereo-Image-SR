@@ -13,7 +13,7 @@
 
 
 ## Methods
-|     Model     |  Paper  | Better Performance than |
+|     Aronym & Codes    |  Paper  | Demonstrated Superior to |
 | :----------: |  :----------------------------------------------------------------: | :----------: |
 | [**StereoSR**](https://github.com/PeterZhouSZ/stereosr) | [**Enhancing the Spatial Resolution of Stereo Images using a Parallax Prior**](http://openaccess.thecvf.com/content_cvpr_2018/papers/Jeon_Enhancing_the_Spatial_CVPR_2018_paper.pdf), ***CVPR2018***. | *SRCNN, VDSR*
 | [**PASSRnet**](https://github.com/LongguangWang/PASSRnet) | [**Learning Parallax Attention for Stereo Image Super-Resolution**](http://openaccess.thecvf.com/content_CVPR_2019/papers/Wang_Learning_Parallax_Attention_for_Stereo_Image_Super-Resolution_CVPR_2019_paper.pdf), ***CVPR2019 & TPAMI2020***. | **StereoSR**,<br> *SRCNN, VDSR, DRCN, DRRN, LapSRN*
@@ -24,6 +24,11 @@
 | [**CPASSRnet**](https://github.com/canqChen/CPASSRnet) | **Cross Parallax Attention Network for Stereo Image Super-Resolution**, ***TMM2021.*** | **StereoSR, PASSRnet**, <br> *SRCNN, LapSRN，SRDense* |
 | [**BSSRnet**](https://github.com/xuqingyu26/BSSRnet) | [**Deep Bilateral Learning for Stereo Image Super-Resolution**](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9382858), ***SPL2021.*** | **StereoSR, PASSRnet, SRRes+SAM**, <br> *VDSR, LapSRN，DRRN* |
 | [**iPASSR**](https://github.com/YingqianWang/iPASSR) | [**Symmetric Parallax Attention for Stereo Image Super-Resolution**](https://arxiv.org/pdf/2011.03802.pdf), ***CVPRW2021.*** | **StereoSR, PASSRnet, SRRes+SAM**,<br> *EDSR, RDN, RCAN* |
+
+## Benchmark
+|     Method     |  Scale  | #Params. |  KITTI 2012  |  KITTI 2015  |  Middlebury  |  Flickr1024  |
+|     Bicubic	   |    2×	 |    —     | 28.51/0.8842 | 28.61/0.8973	| 30.60/0.8990 | 24.94/0.8186 |
+
 
 <!--
 | **DCSSRnet** | **--ICLRW2020--**<br> [**paper**](https://arxiv.org/pdf/2003.08539.pdf) | -- | **endoscopic image, disparity-constrained parallax attention** | **StereoSR, PASSRnet**, *SRCNN, VDSR, DRRN* |
