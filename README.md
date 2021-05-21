@@ -26,9 +26,11 @@
 | [**iPASSR**](https://github.com/YingqianWang/iPASSR) | [**Symmetric Parallax Attention for Stereo Image Super-Resolution**](https://arxiv.org/pdf/2011.03802.pdf), ***CVPRW2021.*** | **StereoSR, PASSRnet, SRRes+SAM**,<br> *EDSR, RDN, RCAN* |
 
 ## Benchmark
+
 |     Method     |  Scale  | #Params. |  KITTI 2012  |  KITTI 2015  |  Middlebury  |  Flickr1024  |
-|      :---:     |  :-- -: | :------: | :----------: | :----------: | :----------: | :----------: |
+|:--------------:|  :-- -: | :------: | :----------: | :----------: | :----------: | :----------: |
 |     Bicubic	   |    2×	 |    —     | 28.51/0.8842 | 28.61/0.8973	| 30.60/0.8990 | 24.94/0.8186 |
+
 
 
 <!--
