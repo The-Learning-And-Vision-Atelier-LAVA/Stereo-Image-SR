@@ -26,6 +26,7 @@
 | [**iPASSR**](https://github.com/YingqianWang/iPASSR) | [**Symmetric Parallax Attention for Stereo Image Super-Resolution**](https://arxiv.org/pdf/2011.03802.pdf), ***CVPRW2021.*** | **StereoSR, PASSRnet, SRRes+SAM**,<br> *EDSR, RDN, RCAN* |
 
 ## Benchmark
+
 | Method | Scale | #Params.|  KITTI 2012  |  KITTI 2015  |  Middlebury  |  Flickr1024  |
 |:--------------:|  :----: | :------: | :----------: | :----------: | :----------: | :----------: |
 | Bicubic    | 2×  |   —   | 28.51/0.8842 | 28.61/0.8973 | 30.60/0.8990 | 24.94/0.8186 |
@@ -50,6 +51,8 @@
 | SRRes+SAM  | 4×  | 1.73M | 26.44/0.8018 | 26.22/0.8054 | 28.83/0.8290 | 23.27/0.7233 |
 | BSSRnet    | 4×  | 1.91M | 26.47/0.8049 | 26.17/0.8075 | 29.08/0.8362 | 23.40/0.7289 |
 | iPASSR     | 4×  | 1.42M | 26.56/0.8053 | 26.32/0.8084 | 29.16/0.8367 | 23.44/0.7287 |
+
+* **The full test sets used above can be downloaded from [Google Drive](https://drive.google.com/file/d/1LQDUclNtNZWTT41NndISLGvjvuBbxeUs/view?usp=sharing) and [Baidu Drive](https://pan.baidu.com/s/1SIYGcMBEDDZ0wYrkxL9bnQ) (Key: NUDT)**
 
 ## Some Useful Recources
 * **The 2x/4x models of EDSR/RDN/RCAN retrained on stereo image datasets. [Google Drive](https://drive.google.com/drive/folders/1ovN_O34qTToI6jiaL69T1_vlHv2jwu0f?usp=sharing), [Baidu Drive](https://pan.baidu.com/s/1GrKi8taYnEColKz_wa5f4w) (Key: NUDT).**
