@@ -13,7 +13,7 @@
 
 
 ## Methods
-|     Aronym & Codes    |  Paper  | Demonstrated Superior to |
+|     Method    |  Paper  | Demonstrated Superior to |
 | :----------: |  :----------------------------------------------------------------: | :----------: |
 | [**StereoSR**](https://github.com/PeterZhouSZ/stereosr) | [**Enhancing the Spatial Resolution of Stereo Images using a Parallax Prior**](http://openaccess.thecvf.com/content_cvpr_2018/papers/Jeon_Enhancing_the_Spatial_CVPR_2018_paper.pdf), ***CVPR2018***. | *SRCNN, VDSR*
 | [**PASSRnet**](https://github.com/LongguangWang/PASSRnet) | [**Learning Parallax Attention for Stereo Image Super-Resolution**](http://openaccess.thecvf.com/content_CVPR_2019/papers/Wang_Learning_Parallax_Attention_for_Stereo_Image_Super-Resolution_CVPR_2019_paper.pdf), ***CVPR2019 & TPAMI2020***. | **StereoSR**,<br> *SRCNN, VDSR, DRCN, DRRN, LapSRN*
@@ -26,7 +26,12 @@
 | [**iPASSR**](https://github.com/YingqianWang/iPASSR) | [**Symmetric Parallax Attention for Stereo Image Super-Resolution**](https://arxiv.org/pdf/2011.03802.pdf), ***CVPRW2021.*** | **StereoSR, PASSRnet, SRRes+SAM**,<br> *EDSR, RDN, RCAN* |
 
 ## Benchmark
+**We benchmark several methods on the KITTI 2012, KITTI 2015, Middlebury and Flickr1024 datasets. The test sets used below can be downloaded from [Google Drive](https://drive.google.com/file/d/1LQDUclNtNZWTT41NndISLGvjvuBbxeUs/view?usp=sharing) and [Baidu Drive](https://pan.baidu.com/s/1SIYGcMBEDDZ0wYrkxL9bnQ) (Key: NUDT). Note that, All these methods have been retrained on the same training set (60 images from the Middlebury dataset and 800 images from the Flickr1024 dataset) for fair comparison.**
 
+**PSNR and SSIM metrics are used for quantitative evaluation, which are first calculated on each view (without boundary cropping) independently, then averaged between left and right views to generate the score of a scene. Finally, the score of a dataset is obtained by averaging the scores of all its scenes.**
+
+
+### PSNR and SSIM values achieved by different methods for 2xSR:
 | Method | Scale | #Params.|  KITTI 2012  |  KITTI 2015  |  Middlebury  |  Flickr1024  |
 |:--------------:|  :----: | :------: | :----------: | :----------: | :----------: | :----------: |
 | Bicubic    | 2×  |   —   | 28.51/0.8842 | 28.61/0.8973 | 30.60/0.8990 | 24.94/0.8186 |
@@ -39,7 +44,7 @@
 | BSSRnet    | 2×  | 1.91M | 31.03/0.9241 | 30.74/0.9344 | 34.74/0.9475 | 28.53/0.9090 |
 | iPASSR     | 2×  | 1.37M | 31.11/0.9240 | 30.81/0.9340 | 34.51/0.9454 | 28.60/0.9097 |			
 			
-
+### PSNR and SSIM values achieved by different methods for 4xSR:
 | Method | Scale | #Params.|  KITTI 2012  |  KITTI 2015  |  Middlebury  |  Flickr1024  |
 |:--------------:|  :----: | :------: | :----------: | :----------: | :----------: | :----------: |
 | Bicubic    | 4×  |   —   | 24.58/0.7372 | 24.38/0.7340 | 26.40/0.7572 | 21.82/0.6293 |
@@ -53,9 +58,7 @@
 | BSSRnet    | 4×  | 1.91M | 26.47/0.8049 | 26.17/0.8075 | 29.08/0.8362 | 23.40/0.7289 |
 | iPASSR     | 4×  | 1.42M | 26.56/0.8053 | 26.32/0.8084 | 29.16/0.8367 | 23.44/0.7287 |
 
-* **The full test sets used above can be downloaded from [Google Drive](https://drive.google.com/file/d/1LQDUclNtNZWTT41NndISLGvjvuBbxeUs/view?usp=sharing) and [Baidu Drive](https://pan.baidu.com/s/1SIYGcMBEDDZ0wYrkxL9bnQ) (Key: NUDT)**
-
-## Some Useful Recources
+#### We provide some original super-resolved images and useful resources to facilitate researchers to reproduce the above results.
 * **The 2x/4x models of EDSR/RDN/RCAN retrained on stereo image datasets. [Google Drive](https://drive.google.com/drive/folders/1ovN_O34qTToI6jiaL69T1_vlHv2jwu0f?usp=sharing), [Baidu Drive](https://pan.baidu.com/s/1GrKi8taYnEColKz_wa5f4w) (Key: NUDT).**
 * **The 2x/4x results of StereoSR. [Google Drive](https://drive.google.com/file/d/1nt6uBhyze0Cx0VdI3O7PsxN51qZNqIKd/view?usp=sharing), [Baidu Drive](https://pan.baidu.com/s/1E_w0BHeaNzjQEyc22To5FQ) (Key: NUDT).**
 * **The 4x results of SRRes+SAM. [Google Drive](https://drive.google.com/file/d/1uOM-LUDandK2lX9p2mknc_J1C81Zbn8e/view?usp=sharing), [Baidu Drive](https://pan.baidu.com/s/1KIr0v1XfBPPQR-MEMTUbwg) (Key: NUDT).**
