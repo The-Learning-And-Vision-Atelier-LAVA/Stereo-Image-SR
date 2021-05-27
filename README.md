@@ -64,3 +64,14 @@
 * **The 2x/4x results of StereoSR. [Google Drive](https://drive.google.com/file/d/1nt6uBhyze0Cx0VdI3O7PsxN51qZNqIKd/view?usp=sharing), [Baidu Drive](https://pan.baidu.com/s/1E_w0BHeaNzjQEyc22To5FQ) (Key: NUDT).**
 * **The 4x results of SRRes+SAM. [Google Drive](https://drive.google.com/file/d/1uOM-LUDandK2lX9p2mknc_J1C81Zbn8e/view?usp=sharing), [Baidu Drive](https://pan.baidu.com/s/1KIr0v1XfBPPQR-MEMTUbwg) (Key: NUDT).**
 * **The 2x/4x results of iPASSR. [Google Drive](https://drive.google.com/file/d/1LKe86Cet8LFRG-mgG9oYAJlyiJljDJb0/view?usp=sharing) and [Baidu Drive](https://pan.baidu.com/s/1w8RtQau2RoY89jsFvMCStw) (Key: NUDT).**
+
+## Citiation
+**We hope this work can facilitate the future research in stereo image SR. If you find this work helpful, please consider citing:**
+```
+@article{iPASSR,
+  author    = {Wang, Yingqian and Ying, Xinyi and Wang, Longguang and Yang, Jungang and An, Wei and Guo, Yulan},
+  title     = {Symmetric Parallax Attention for Stereo Image Super-Resolution},
+  journal   = {IEEE Conference on Computer Vision and Pattern Recognition Workshops (CVPRW)},
+  year      = {2021},
+}
+```
