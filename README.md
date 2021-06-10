@@ -26,7 +26,7 @@
 | [**BSSRnet**](https://github.com/xuqingyu26/BSSRnet) | [**Deep Bilateral Learning for Stereo Image Super-Resolution**](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9382858), ***SPL2021.*** | **StereoSR, PASSRnet, SRRes+SAM**, <br> *VDSR, LapSRN，DRRN* |
 | [**iPASSR**](https://github.com/YingqianWang/iPASSR) | [**Symmetric Parallax Attention for Stereo Image Super-Resolution**](https://arxiv.org/pdf/2011.03802.pdf), ***CVPRW2021.*** | **StereoSR, PASSRnet, SRRes+SAM**,<br> *VDSR, EDSR, RDN, RCAN* |
 | **SSRDE-FNet** | [**Feedback Network for Mutually Boosted Stereo Image Super-Resolution and Disparity Estimation**](https://arxiv.org/pdf/2106.00985.pdf), ***arXiv2021.*** | **StereoSR, PASSRnet,SRRes+SAM, IMSSRNet, iPASSR**,<br> *VDSR, EDSR, RDN, RCAN* |
-| [**DFAM**](https://github.com/JiawangDan/DFAM) | [**A Disparity Feature Alignment Module for Stereo Image Super-Resolution**], ***SPL2021.*** | **StereoSR, PASSRnet, SAM** |
+| [**DFAM**](https://github.com/JiawangDan/DFAM) | **A Disparity Feature Alignment Module for Stereo Image Super-Resolution**, ***SPL2021.*** | **StereoSR, PASSRnet, SAM** |
 
 ## Benchmark
 **We benchmark several methods on the KITTI 2012, KITTI 2015, Middlebury and Flickr1024 datasets. The test sets used below can be downloaded from [Google Drive](https://drive.google.com/file/d/1LQDUclNtNZWTT41NndISLGvjvuBbxeUs/view?usp=sharing) and [Baidu Drive](https://pan.baidu.com/s/1SIYGcMBEDDZ0wYrkxL9bnQ) (Key: NUDT). Note that, All these methods have been retrained on the same training set (60 images from the Middlebury dataset and 800 images from the Flickr1024 dataset) for fair comparison.**
