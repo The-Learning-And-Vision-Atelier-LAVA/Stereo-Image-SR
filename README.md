@@ -63,6 +63,7 @@
 | iPASSR     | 4×  | 1.42M | 26.56/0.8053 | 26.32/0.8084 | 29.16/0.8367 | 23.44/0.7287 |
 | SSRDE-FNet | 4×  | 2.24M | 26.70/0.8082 | 26.43/0.8118 | 29.38/0.8411 | 23.59/0.7352 |
 
+## Recources
 #### We provide some original super-resolved images and useful resources to facilitate researchers to reproduce the above results.
 * **The 2x/4x models of EDSR/RDN/RCAN retrained on stereo image datasets. [Google Drive](https://drive.google.com/drive/folders/1ovN_O34qTToI6jiaL69T1_vlHv2jwu0f?usp=sharing), [Baidu Drive](https://pan.baidu.com/s/1GrKi8taYnEColKz_wa5f4w) (Key: NUDT).**
 * **The 2x/4x results of StereoSR. [Google Drive](https://drive.google.com/file/d/1nt6uBhyze0Cx0VdI3O7PsxN51qZNqIKd/view?usp=sharing), [Baidu Drive](https://pan.baidu.com/s/1E_w0BHeaNzjQEyc22To5FQ) (Key: NUDT).**
