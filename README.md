@@ -1,6 +1,7 @@
 ### <img src="https://raw.github.com/YingqianWang/Awesome-Stereo-Image-SR/master/Fig/Thumbnail.jpg" width="1000">
 #### With recent advances in stereo vision, dual cameras are commonly adopted in mobile phones and autonomous vehicles. Using the complementary information provided by binocular systems, the resolution of image pairs can be enhanced by stereo image super-resolution (SR) algorithms. In this repository, we first present a collection of datasets and papers on stereo image SR, together with their codes or repos. Then, we develop a benchmark to comprehensively evaluate milestone and state-of-the-art methods. Welcome to raise issues regarding our survey and submit novel results (better together with original files and source codes) to our benchmark.
 
+#### Refer to our recent [survey](https://yingqianwang.github.io/Stereo-Image-SR/Survey.pdf) for details.
 #### Note: This repository will be updated on a regular basis, so stay tuned~~🎉🎉🎉
 
 ## Datasets
