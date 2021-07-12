@@ -76,13 +76,11 @@
 ## Citiation
 **We hope this work can facilitate the future research in stereo image SR. If you find this work helpful, please consider citing:**
 ```
-@InProceedings{iPASSR,
-    author    = {Wang, Yingqian and Ying, Xinyi and Wang, Longguang and Yang, Jungang and An, Wei and Guo, Yulan},
-    title     = {Symmetric Parallax Attention for Stereo Image Super-Resolution},
-    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) Workshops},
-    month     = {June},
-    year      = {2021},
-    pages     = {766-775}
+@Article{Wang2021Survey,
+    author    = {Wang, Yingqian and Wang, Longguang and Liang, Zhengyu and An, Wei and Yang, Jungang},
+    title     = {Stereo Image Super-Resolution: A Survey},    
+    month     = {July},
+    year      = {2021},    
 }
 
 ```
