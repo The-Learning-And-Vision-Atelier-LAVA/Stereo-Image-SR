@@ -73,14 +73,4 @@
 * **The 2x/4x results of iPASSR. [Google Drive](https://drive.google.com/file/d/1LKe86Cet8LFRG-mgG9oYAJlyiJljDJb0/view?usp=sharing) and [Baidu Drive](https://pan.baidu.com/s/1w8RtQau2RoY89jsFvMCStw) (Key: NUDT).**
 * **The 2x/4x results of BSSRnet. [Google Drive](https://drive.google.com/file/d/1MxYcpZMap9Vfc4jJp6QHBFqBj9gqb1-K/view?usp=sharing) and [Baidu Drive](https://pan.baidu.com/s/1V9rgQLw3VbtQk9Nk_rVvFQ) (Key: NUDT).**
 
-## Citiation
-**We hope this work can facilitate the future research in stereo image SR. If you find this work helpful, please consider citing:**
-```
-@Article{Wang2021Survey,
-    author    = {Wang, Yingqian and Wang, Longguang and Liang, Zhengyu and An, Wei and Yang, Jungang},
-    title     = {Stereo Image Super-Resolution: A Survey},    
-    month     = {July},
-    year      = {2021},    
-}
 
-```
