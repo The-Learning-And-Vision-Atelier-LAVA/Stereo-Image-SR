@@ -29,8 +29,8 @@
 | [**DFAM**](https://github.com/JiawangDan/DFAM) | **A Disparity Feature Alignment Module for Stereo Image Super-Resolution**, ***SPL2021.*** | **StereoSR, PASSRnet, SAM** |
 | [**CVCnet**](https://github.com/xyzhu1/CVCnet) | **Cross View Capture for Stereo Image Super-Resolution**, ***TMM2021.*** | **StereoSR, PASSRnet**, <br> *SRCNN, VDSR，DRRN, CARN* |
 | **SSRDE-FNet** | [**Feedback Network for Mutually Boosted Stereo Image Super-Resolution and Disparity Estimation**](https://arxiv.org/pdf/2106.00985.pdf), ***ACM MM 2021.*** | **StereoSR, PASSRnet, SRRes+SAM, IMSSRNet, iPASSR**,<br> *VDSR, EDSR, RDN, RCAN* |
-| **SVSRNet** | [**Stereo video super-resolution via exploiting view-temporal correlations**](https://dl.acm.org/doi/abs/10.1145/3474085.3475189), ***ACM MM 2021.*** | **PASSRnet, SRRes+SAM**,<br> *RCAN, RBPN, EDVR* |
-| **PSSR** | [**Perception-Oriented Stereo Image Super-Resolution**](https://dl.acm.org/doi/abs/10.1145/3474085.3475408), ***ACM MM 2021.*** | **StereoSR, PASSRnet, DASSR**,<br> *EDSR, SRFBN, DRN, SPSR* |
+| **SVSRNet** | Stereo video super-resolution via exploiting view-temporal correlations, ***ACM MM 2021.*** | **PASSRnet, SRRes+SAM**,<br> *RCAN, RBPN, EDVR* |
+| **PSSR** | Perception-Oriented Stereo Image Super-Resolution, ***ACM MM 2021.*** | **StereoSR, PASSRnet, DASSR**,<br> *EDSR, SRFBN, DRN, SPSR* |
 
 ## Benchmark
 **We benchmark several methods on the KITTI 2012, KITTI 2015, Middlebury and Flickr1024 datasets. The test sets used below can be downloaded from [Google Drive](https://drive.google.com/file/d/1LQDUclNtNZWTT41NndISLGvjvuBbxeUs/view?usp=sharing) and [Baidu Drive](https://pan.baidu.com/s/1SIYGcMBEDDZ0wYrkxL9bnQ) (Key: NUDT). Note that, All these methods have been retrained on the same training set (60 images from the Middlebury dataset and 800 images from the Flickr1024 dataset) for fair comparison.**
