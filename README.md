@@ -26,7 +26,7 @@
 | **CPASSRnet** | Cross Parallax Attention Network for Stereo Image Super-Resolution, [TMM 2021](https://ieeexplore.ieee.org/document/9318556). | [canqChen/<br/>CPASSRnet](https://github.com/canqChen/CPASSRnet) |
 | **BSSRnet** | Deep Bilateral Learning for Stereo Image Super-Resolution, [SPL 2021](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9382858). | [xuqingyu26/<br/>BSSRnet](https://github.com/xuqingyu26/BSSRnet) |
 | **iPASSR** | Symmetric Parallax Attention for Stereo Image Super-Resolution, [CVPRW 2021](https://arxiv.org/pdf/2011.03802.pdf). | [YingqianWang/<br/>iPASSR](https://github.com/YingqianWang/iPASSR) |
-| **DFAM**  | A Disparity Feature Alignment Module for Stereo Image Super-Resolution, [SPL 2021](A Disparity Feature Alignment Module for Stereo Image Super-Resolution). | [JiawangDan/DFAM]((https://github.com/JiawangDan/DFAM)) |
+| **DFAM**  | A Disparity Feature Alignment Module for Stereo Image Super-Resolution, [SPL 2021](https://ieeexplore.ieee.org/document/9449947). | [JiawangDan/DFAM](https://github.com/JiawangDan/DFAM) |
 | CVCnet | Cross View Capture for Stereo Image Super-Resolution, TMM 2021. | [xyzhu1/CVCnet](https://github.com/xyzhu1/CVCnet) |
 | **SSRDE-FNet** | Feedback Network for Mutually Boosted Stereo Image Super-Resolution and Disparity Estimation, [ACM MM 2021](https://arxiv.org/pdf/2106.00985.pdf). | -- |
 | **SVSRNet** | Stereo video super-resolution via exploiting view-temporal correlations, [ACM MM 2021](https://dl.acm.org/doi/abs/10.1145/3474085.3475189). | -- |
