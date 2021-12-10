@@ -15,22 +15,22 @@
 
 
 ## Methods
-|     Method    |  Paper  | Demonstrated Superior to |
+|     Method    |  Publication  | Official Repository |
 | :----------: |  :----------------------------------------------------------------: | :----------: |
-| [**StereoSR**](https://github.com/PeterZhouSZ/stereosr) | [**Enhancing the Spatial Resolution of Stereo Images using a Parallax Prior**](http://openaccess.thecvf.com/content_cvpr_2018/papers/Jeon_Enhancing_the_Spatial_CVPR_2018_paper.pdf),<br> ***CVPR 2018***. | *SRCNN, VDSR*
-| [**PASSRnet**](https://github.com/LongguangWang/PASSRnet) | [**Learning Parallax Attention for Stereo Image Super-Resolution**](http://openaccess.thecvf.com/content_CVPR_2019/papers/Wang_Learning_Parallax_Attention_for_Stereo_Image_Super-Resolution_CVPR_2019_paper.pdf),<br> ***CVPR 2019 & TPAMI 2020***. | **StereoSR**,<br> *SRCNN, VDSR, DRCN, DRRN, LapSRN*
-| [**SAM**](https://github.com/XinyiYing/SAM) | [**A Stereo Attention Module for Stereo Image Super-Resolution**](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8998204),<br> ***SPL 2020.*** | *SRResNet* < **PASSRnet** < *SRResNet+SAM* |
-| **SPAMnet** | **Stereoscopic image super-resolution with stereo consistent feature**,<br> ***AAAI 2020.*** | **StereoSR, PASSRnet**,<br> *SRCNN, VDSR, DRRN, LapSRN* |
-| **DASSR** | [**Disparity-Aware Domain Adaptation in Stereo Image Restoration**](https://openaccess.thecvf.com/content_CVPR_2020/papers/Yan_Disparity-Aware_Domain_Adaptation_in_Stereo_Image_Restoration_CVPR_2020_paper.pdf),<br> ***CVPR 2020.*** | **StereoSR, PASSRnet**,<br> *EDSR, SRNTT, DUF, SMPC* |
-| **IMSSRnet** | **Deep Stereoscopic Image Super-Resolution via Interaction Module**,<br> ***TCSVT 2020.*** | **StereoSR, PASSRnet** |
-| [**CPASSRnet**](https://github.com/canqChen/CPASSRnet) | **Cross Parallax Attention Network for Stereo Image Super-Resolution**,<br> ***TMM 2021.*** | **StereoSR, PASSRnet**, <br> *SRCNN, LapSRN，SRDense* |
-| [**BSSRnet**](https://github.com/xuqingyu26/BSSRnet) | [**Deep Bilateral Learning for Stereo Image Super-Resolution**](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9382858),<br> ***SPL 2021.*** | **StereoSR, PASSRnet, SRRes+SAM**, <br> *VDSR, LapSRN，DRRN* |
-| [**iPASSR**](https://github.com/YingqianWang/iPASSR) | [**Symmetric Parallax Attention for Stereo Image Super-Resolution**](https://arxiv.org/pdf/2011.03802.pdf),<br> ***CVPRW 2021.*** | **StereoSR, PASSRnet, SRRes+SAM**,<br> *VDSR, EDSR, RDN, RCAN* |
-| [**DFAM**](https://github.com/JiawangDan/DFAM) | **A Disparity Feature Alignment Module for Stereo Image Super-Resolution**,<br> ***SPL 2021.*** | **StereoSR, PASSRnet, SAM** |
-| [**CVCnet**](https://github.com/xyzhu1/CVCnet) | **Cross View Capture for Stereo Image Super-Resolution**,<br> ***TMM 2021.*** | **StereoSR, PASSRnet**, <br> *SRCNN, VDSR，DRRN, CARN* |
-| **SSRDE-FNet** | [**Feedback Network for Mutually Boosted Stereo Image Super-Resolution and Disparity Estimation**](https://arxiv.org/pdf/2106.00985.pdf),<br> ***ACM MM 2021.*** | **StereoSR, PASSRnet, SRRes+SAM, IMSSRNet, iPASSR**,<br> *VDSR, EDSR, RDN, RCAN* |
-| **SVSRNet** | Stereo video super-resolution via exploiting view-temporal correlations,<br> ***ACM MM 2021.*** | **PASSRnet, SRRes+SAM**,<br> *RCAN, RBPN, EDVR* |
-| **PSSR** | Perception-Oriented Stereo Image Super-Resolution,<br> ***ACM MM 2021.*** | **StereoSR, PASSRnet, DASSR**,<br> *EDSR, SRFBN, DRN, SPSR* |
+| **StereoSR**  | Enhancing the Spatial Resolution of Stereo Images using a Parallax Prior, [CVPR 2018](http://openaccess.thecvf.com/content_cvpr_2018/papers/Jeon_Enhancing_the_Spatial_CVPR_2018_paper.pdf)  | [PeterZhouSZ/<br/>stereosr](https://github.com/)
+| **PASSRnet**  | Learning Parallax Attention for Stereo Image Super-Resolution, [CVPR 2019](http://openaccess.thecvf.com/content_CVPR_2019/papers/Wang_Learning_Parallax_Attention_for_Stereo_Image_Super-Resolution_CVPR_2019_paper.pdf) | [LongguangWang/<br/>PASSRnet](https://github.com/LongguangWang/PASSRnet) | 
+| **SAM**   |  A Stereo Attention Module for Stereo Image Super-Resolution, [SPL 2020](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8998204) | [XinyiYing/SAM](https://github.com/XinyiYing/SAM) |
+| **SPAMnet** | Stereoscopic image super-resolution with stereo consistent feature, [AAAI 2020](https://ojs.aaai.org/index.php/AAAI/article/view/6880/6734).  | -- |
+| **DASSR** | Disparity-Aware Domain Adaptation in Stereo Image Restoration, [CVPR 2020](https://openaccess.thecvf.com/content_CVPR_2020/papers/Yan_Disparity-Aware_Domain_Adaptation_in_Stereo_Image_Restoration_CVPR_2020_paper.pdf). | -- |
+| **IMSSRnet** | Deep Stereoscopic Image Super-Resolution via Interaction Module, [TCSVT 2020](https://ieeexplore.ieee.org/abstract/document/9253563). | -- |
+| **CPASSRnet** | Cross Parallax Attention Network for Stereo Image Super-Resolution, [TMM 2021](https://ieeexplore.ieee.org/document/9318556). | [canqChen/<br/>CPASSRnet](https://github.com/canqChen/CPASSRnet) |
+| **BSSRnet** | Deep Bilateral Learning for Stereo Image Super-Resolution, [SPL 2021](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9382858). | [xuqingyu26/<br/>BSSRnet](https://github.com/xuqingyu26/BSSRnet) |
+| **iPASSR** | Symmetric Parallax Attention for Stereo Image Super-Resolution, [CVPRW 2021](https://arxiv.org/pdf/2011.03802.pdf). | [YingqianWang/<br/>iPASSR](https://github.com/YingqianWang/iPASSR) |
+| **DFAM**  | A Disparity Feature Alignment Module for Stereo Image Super-Resolution, [SPL 2021](A Disparity Feature Alignment Module for Stereo Image Super-Resolution). | [JiawangDan/DFAM]((https://github.com/JiawangDan/DFAM)) |
+| CVCnet | Cross View Capture for Stereo Image Super-Resolution, TMM 2021. | [xyzhu1/CVCnet](https://github.com/xyzhu1/CVCnet) |
+| **SSRDE-FNet** | Feedback Network for Mutually Boosted Stereo Image Super-Resolution and Disparity Estimation, [ACM MM 2021](https://arxiv.org/pdf/2106.00985.pdf). | -- |
+| **SVSRNet** | Stereo video super-resolution via exploiting view-temporal correlations, [ACM MM 2021](https://dl.acm.org/doi/abs/10.1145/3474085.3475189). | -- |
+| **PSSR** | Perception-Oriented Stereo Image Super-Resolution, [ACM MM 2021](https://dl.acm.org/doi/abs/10.1145/3474085.3475408). | -- |
 
 ## Benchmark
 **We benchmark several methods on the KITTI 2012, KITTI 2015, Middlebury and Flickr1024 datasets. The test sets used below can be downloaded from [Google Drive](https://drive.google.com/file/d/1LQDUclNtNZWTT41NndISLGvjvuBbxeUs/view?usp=sharing) and [Baidu Drive](https://pan.baidu.com/s/1SIYGcMBEDDZ0wYrkxL9bnQ) (Key: NUDT). Note that, All these methods have been retrained on the same training set (60 images from the Middlebury dataset and 800 images from the Flickr1024 dataset) for fair comparison.**
