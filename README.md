@@ -8,7 +8,7 @@
 
 ## Datasets:
 |     Dataset    |  Publication  |
-| :----------: |  :----------------------------------------------------------------: | :----------: |
+| :----------: |  :----------------------------------------------------------------: |
 | [**Flickr1024**](https://yingqianwang.github.io/Flickr1024/)  | Flickr1024: A Large-Scale Dataset for Stereo Image Super-Resolution, [ICCVW 2019](http://openaccess.thecvf.com/content_ICCVW_2019/papers/LCI/Wang_Flickr1024_A_Large-Scale_Dataset_for_Stereo_Image_Super-Resolution_ICCVW_2019_paper.pdf)  |
 | [**Middlebury**](http://vision.middlebury.edu/stereo/data/)  | High-resolution stereo datasets with subpixel-accurate ground truth, [GCPR 2014](www.cs.middlebury.edu/~schar/papers/datasets-gcpr2014.pdf) | 
 | [**KITTI 2012**](http://www.cvlibs.net/datasets/kitti/eval_stereo_flow.php?benchmark=stereo)   |  Are we ready for Autonomous Driving? The KITTI Vision Benchmark Suite, [CVPR 2012] |
