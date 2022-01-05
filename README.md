@@ -1,20 +1,22 @@
-### <img src="https://raw.github.com/YingqianWang/Awesome-Stereo-Image-SR/master/Fig/Thumbnail.jpg" width="1000">
+### <img src="https://raw.github.com/YingqianWang/Stereo-Image-SR/master/Fig/Thumbnail.jpg" width="1000">
 #### With recent advances in stereo vision, dual cameras are commonly adopted in mobile phones and autonomous vehicles. Using the complementary information provided by binocular systems, the resolution of image pairs can be enhanced by stereo image super-resolution (SR) algorithms. In this repository, we first present a collection of datasets and papers on stereo image SR, together with their codes or repos. Then, we develop a benchmark to comprehensively evaluate milestone and state-of-the-art methods. Welcome to raise issues regarding our survey and submit novel results (better together with original files and source codes) to our benchmark.
 
 #### Refer to our recent [survey](https://yingqianwang.github.io/Stereo-Image-SR/Survey.pdf) for details.
 #### Note: This repository will be updated on a regular basis, so stay tuned~~🎉🎉🎉
 
-## Datasets
+## Challenges:
+### [*NTIRE 2022 Stereo Image Super-Resolution Challenge*](https://github.com/YingqianWang/Stereo-Image-SR/tree/NTIRE2022)
 
-|     Name     |   links |  Comments |
-| :----------: |  :-----: | :-------: |
-|     **Flickr1024**     | [**website**](https://yingqianwang.github.io/Flickr1024/) & [**paper**](http://openaccess.thecvf.com/content_ICCVW_2019/papers/LCI/Wang_Flickr1024_A_Large-Scale_Dataset_for_Stereo_Image_Super-Resolution_ICCVW_2019_paper.pdf) | **large-scale; high-quality images; diverse senarios** |
-|     **Middlebury**     | [**website**](http://vision.middlebury.edu/stereo/data/) & [**paper**](https://elib.dlr.de/90624/1/ScharsteinEtal2014.pdf) | **indoor scenarios; groundtruth disparity** |
-|     **KITTI2012**     | [**website**](http://www.cvlibs.net/datasets/kitti/eval_stereo_flow.php?benchmark=stereo) & [**paper**](http://ww.cvlibs.net/publications/Geiger2012CVPR.pdf) | **driving perspectives; groundtruth disparity** |
-|     **KITTI2015**     | [**website**](http://www.cvlibs.net/datasets/kitti/eval_scene_flow.php?benchmark=stereo) & [**paper**](http://openaccess.thecvf.com/content_cvpr_2015/papers/Menze_Object_Scene_Flow_2015_CVPR_paper.pdf) | **driving perspectives; groundtruth disparity** |
+## Datasets:
+|     Name    |  Publication  | Website |
+| :----------: |  :----------------------------------------------------------------: | :----------: |
+| **Flickr1024**  | Flickr1024: A Large-Scale Dataset for Stereo Image Super-Resolution, [ICCVW 2019](http://openaccess.thecvf.com/content_ICCVW_2019/papers/LCI/Wang_Flickr1024_A_Large-Scale_Dataset_for_Stereo_Image_Super-Resolution_ICCVW_2019_paper.pdf)  | [YingqianWang/Flickr1024](https://yingqianwang.github.io/Flickr1024/)
+| **Middlebury**  | Learning Parallax Attention for Stereo Image Super-Resolution, [CVPR 2019](http://openaccess.thecvf.com/content_CVPR_2019/papers/Wang_Learning_Parallax_Attention_for_Stereo_Image_Super-Resolution_CVPR_2019_paper.pdf) | [link](http://vision.middlebury.edu/stereo/data/) | 
+| **KITTI 2012**   |  Are we ready for Autonomous Driving? The KITTI Vision Benchmark Suite, [CVPR 2012](http://ww.cvlibs.net/publications/Geiger2012CVPR.pdf) | [link](http://www.cvlibs.net/datasets/kitti/eval_stereo_flow.php?benchmark=stereo) |
+| **KITTI 2015**   |  Object Scene Flow for Autonomous Vehicles, [CVPR 2015](http://openaccess.thecvf.com/content_cvpr_2015/papers/Menze_Object_Scene_Flow_2015_CVPR_paper.pdf) | [link](http://www.cvlibs.net/datasets/kitti/eval_scene_flow.php?benchmark=stereo) |
 
 
-## Methods
+## Methods:
 |     Method    |  Publication  | Official Repository |
 | :----------: |  :----------------------------------------------------------------: | :----------: |
 | **StereoSR**  | Enhancing the Spatial Resolution of Stereo Images using a Parallax Prior, [CVPR 2018](http://openaccess.thecvf.com/content_cvpr_2018/papers/Jeon_Enhancing_the_Spatial_CVPR_2018_paper.pdf)  | [PeterZhouSZ/<br/>stereosr](https://github.com/)
