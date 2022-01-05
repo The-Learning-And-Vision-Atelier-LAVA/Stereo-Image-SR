@@ -18,7 +18,7 @@
 ## Methods:
 |     Method    |  Publication  | Official Repository |
 | :----------: |  :----------------------------------------------------------------: | :----------: |
-| **StereoSR**  | Enhancing the Spatial Resolution of Stereo Images using a Parallax Prior, [CVPR 2018](http://openaccess.thecvf.com/content_cvpr_2018/papers/Jeon_Enhancing_the_Spatial_CVPR_2018_paper.pdf)  | [PeterZhouSZ/<br/>stereosr](https://github.com/)
+| **StereoSR**  | Enhancing the Spatial Resolution of Stereo Images using a Parallax Prior, [CVPR 2018](http://openaccess.thecvf.com/content_cvpr_2018/papers/Jeon_Enhancing_the_Spatial_CVPR_2018_paper.pdf)  | [PeterZhouSZ/<br/>stereosr](https://github.com/PeterZhouSZ/stereosr)
 | **PASSRnet**  | Learning Parallax Attention for Stereo Image Super-Resolution, [CVPR 2019](http://openaccess.thecvf.com/content_CVPR_2019/papers/Wang_Learning_Parallax_Attention_for_Stereo_Image_Super-Resolution_CVPR_2019_paper.pdf) | [LongguangWang/<br/>PASSRnet](https://github.com/LongguangWang/PASSRnet) | 
 | **SAM**   |  A Stereo Attention Module for Stereo Image Super-Resolution, [SPL 2020](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8998204) | [XinyiYing/SAM](https://github.com/XinyiYing/SAM) |
 | **SPAMnet** | Stereoscopic image super-resolution with stereo consistent feature, [AAAI 2020](https://ojs.aaai.org/index.php/AAAI/article/view/6880/6734).  | -- |
