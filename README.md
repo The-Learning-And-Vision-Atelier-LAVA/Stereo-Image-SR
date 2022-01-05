@@ -1,4 +1,4 @@
-# NTIRE 2022: Stereo Image Super-Resolution Challenge <br>
+# NTIRE 2022: Stereo Image Super-Resolution Challenge <br> 
 
 Stereo image super-resolution (SR) challenge is held as a part of the [NTIRE workshop]() in conjunction with CVPR 2022. The goal of this challenge is to develop methods to accurately recover high-resolution (HR) stereo image pairs. <br>
 
