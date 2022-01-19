@@ -1,6 +1,6 @@
 # NTIRE 2022: Stereo Image Super-Resolution Challenge <br> 
 
-Stereo image super-resolution (SR) challenge is held as a part of the [NTIRE workshop]() in conjunction with CVPR 2022. The goal of this challenge is to develop methods to accurately recover high-resolution (HR) stereo image pairs. <br>
+Stereo image super-resolution (SR) challenge is held as a part of the [NTIRE workshop](https://data.vision.ee.ethz.ch/cvl/ntire22/) in conjunction with CVPR 2022. The goal of this challenge is to develop methods to accurately recover high-resolution (HR) stereo image pairs. <br>
 
 
 ## Introduction
@@ -19,9 +19,11 @@ During the test phase, the test set will be released, which includes LR images o
 
 ## Datasets
 ### Training Set:
-The 800 stereo images in training set of the [Flickr1024 dataset](https://yingqianwang.github.io/Flickr1024/) are used as the training set of this challenge. Both HR  images and their LR versions (produced by bicubic downsampling) will be released. The participants can use these HR images as groundtruths to train their models. 
+The 800 stereo images in training set of the [Flickr1024 dataset](https://yingqianwang.github.io/Flickr1024/) are used as the training set of this challenge. Both HR images and their LR versions (produced by bicubic downsampling) will be released. The participants can use these HR images as groundtruths to train their models. 
+
 ### Validation Set:
 The 112 stereo images in the validation set of the [Flickr1024 dataset](https://yingqianwang.github.io/Flickr1024/) are used as the validation set of this challenge. Similar to the training set, both HR and LR images in the validation set are provided. The participants can download the validation set to evaluate the performance of their developed models by comparing their super-resolved images with the HR groundtruth images. **Note that, the validation set should be used for validation purpose only but cannot be used as additional training data.** The participants are encouraged to write papers to describe their methods and use the released validation set for performance evaluation.
+
 ### Test Set:
 To rank the submitted models, a test set consisting of 100 stereo images will be provided. Different from the training and validation sets, only LR images will be released. The participants are required to apply their models to the released LR stereo images and submit their super-resolved images to the server. It should be noted that the images in the test set (even the LR versions) cannot be used for training.
 
@@ -39,21 +41,23 @@ ssim = structural_similarity(ref_img, res_img, multichannel=True, %gaussian_weig
 ```
 
 ## Baseline Model
-Over the last few years, several milestone methods have been developed for stereo image SR, including [StereoSR](), [PASSRnet](https://github.com/The-Learning-And-Vision-Atelier-LAVA/PASSRnet), SPAMnet, DASSR, [iPASSR](https://github.com/YingqianWang/iPASSR) (see [YingqianWang/Stereo-Image-SR](https://github.com/YingqianWang/Stereo-Image-SR) for details). In this challenge, PASSRnet is used as a baseline model and the submitted results should be at least on par with PASSRnet. The solutions with PSNR values lower than PASSRnet will not be ranked in the leaderboard.
+Over the last few years, several milestone methods have been developed for stereo image SR, including [StereoSR](https://github.com/PeterZhouSZ/stereosr), [PASSRnet](https://github.com/The-Learning-And-Vision-Atelier-LAVA/PASSRnet) and [iPASSR](https://github.com/YingqianWang/iPASSR). In this challenge, [PASSRnet](https://github.com/The-Learning-And-Vision-Atelier-LAVA/PASSRnet) is used as a baseline model and the submitted results should be at least on par with PASSRnet. The solutions with PSNR values lower than PASSRnet will not be ranked in the leaderboard.
 
 ## Important Dates
-* TBD: Release of training data, validation data, and test data;
-* TBD: Validation server online;
-* TBD: Testing server online;
-* TBD: Test result submission deadline;
-* TBD: Fact sheet / code / model submission deadline;
-* TBD: Test preliminary score release to the participants;
-* TBD: Challenge paper submission;
-* TBD: Camera-ready;
-* TBD: Workshop day;
+* 2022-01-21: Release of training and validation data;
+* 2022-01-31: Validation server online;
+* 2022-03-13: Final test data release, validation server closed;
+* 2022-03-20: Test result submission deadline;
+* 2022-03-20: Fact sheet / code / model submission deadline;
+* 2022-03-22: Test preliminary score release to the participants;
+* 2022-04-01: Challenge paper submission deadline;
+* 2022-04-04: Paper decision notification;
+* 2022-04-08: Camera-ready;
+* 2022-06-20: Workshop day;
 
 ## Issues and Questions:
 The Stereo Image SR Challenge Forum: Please scan the code to join our WeChat group or raise issues to this repo:
+<p align="center"> <img src="https://raw.github.com/The-Learning-And-Vision-Atelier-LAVA/Stereo-Image-SR/NTIRE2022/Figs/WeChat.jpg" width="50%"> </p>
 
 ## Organizers:
 * [**Yulan Guo**](http://yulanguo.me/) ([yulan.guo@nudt.edu.cn](yulan.guo@nudt.edu.cn))
