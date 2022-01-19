@@ -60,6 +60,7 @@ Over the last few years, several milestone methods have been developed for stere
 The Stereo Image SR Challenge Forum: Please scan the code to join our WeChat group or raise issues to this repo:
 
 <p align="center"> <img src="https://raw.github.com/YingqianWang/Stereo-Image-SR/NTIRE2022/Fig/WeChat.jpg" width="30%"> </p>
+
 ## Organizers:
 * [**Yulan Guo**](http://yulanguo.me/) ([yulan.guo@nudt.edu.cn](yulan.guo@nudt.edu.cn))
 * [**Longguang Wang**](https://longguangwang.github.io/) ([wanglongguang15@nudt.edu.cn](wanglongguang15@nudt.edu.cn))
