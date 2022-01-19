@@ -1,5 +1,5 @@
 # NTIRE 2022: Stereo Image Super-Resolution Challenge <br> 
-
+<p align="center">  <img src="https://raw.github.com/YingqianWang/Stereo-Image-SR/master/Fig/Thumbnail.jpg" width="80%"> </p>
 Stereo image super-resolution (SR) challenge is held as a part of the [NTIRE workshop](https://data.vision.ee.ethz.ch/cvl/ntire22/) in conjunction with CVPR 2022. The goal of this challenge is to develop methods to accurately recover high-resolution (HR) stereo image pairs. <br>
 
 
@@ -57,8 +57,8 @@ Over the last few years, several milestone methods have been developed for stere
 
 ## Issues and Questions:
 The Stereo Image SR Challenge Forum: Please scan the code to join our WeChat group or raise issues to this repo:
-<p align="center"> <img src="https://raw.github.com/The-Learning-And-Vision-Atelier-LAVA/Stereo-Image-SR/NTIRE2022/Figs/WeChat.jpg" width="50%"> </p>
 
+<p align="center"> <img src="https://raw.github.com/YingqianWang/Stereo-Image-SR/master/Fig/WeChat.jpg" width="50%"> </p>
 ## Organizers:
 * [**Yulan Guo**](http://yulanguo.me/) ([yulan.guo@nudt.edu.cn](yulan.guo@nudt.edu.cn))
 * [**Longguang Wang**](https://longguangwang.github.io/) ([wanglongguang15@nudt.edu.cn](wanglongguang15@nudt.edu.cn))
