@@ -3,6 +3,10 @@
 
 **Stereo image super-resolution (SR) challenge is held as a part of the [NTIRE workshop](https://data.vision.ee.ethz.ch/cvl/ntire22/) in conjunction with CVPR 2022. The goal of this challenge is to develop methods to accurately recover high-resolution (HR) stereo image pairs.** <br>
 
+## News and Updates:
+
+* **2021-01-21: [Training ](https://www.jianguoyun.com/p/DR03yFcQwOebChjC1KoE) and [validation](https://www.jianguoyun.com/p/DeGlXW0QwOebChjE1KoE) data has been released. Paticipants can use the released data to develop their algorithms (only 4xSR is considered in this challenge). We are still waiting for further notes from the NTIRE organizers.**
+
 
 ## Introduction
 Stereo image pairs can encode 3D scene cues into stereo correspondences between the left and right images. With the popularity of dual cameras in mobile phones, autonomous vehicles and robots, stereo vision has attracted increasingly attention in both academia and industry. In many applications like AR/VR and robot navigation, increasing the resolution of stereo images is highly demanded to achieve higher perceptual quality and help to parse the real world.
@@ -16,13 +20,13 @@ The objective of this challenge is to reconstruct high-resolution (HR) stereo im
 
 During the model development phase, the training set and the validation set will be released. Both HR stereo images and their LR counterparts in the training and validation sets are available. The participants can train their models on the training set and can evaluate their models with the validation set. 
 
-During the test phase, the test set will be released, which includes LR images only. Challenge participants should apply their trained models to the LR test images to generate super-resolved test images.  These  super-resolved images will then be submitted by the participants and evaluated by the organizers with a set of objective quantitative metrics.
+During the test phase, the test set will be released, which includes LR images only. Challenge participants should apply their trained models to the LR test images to generate super-resolved test images.  These super-resolved images will then be submitted by the participants and evaluated by the organizers with a set of objective quantitative metrics.
 
 ## Datasets
-### Training Set:
+### Training Set: *[[download HR-LR training data](https://www.jianguoyun.com/p/DR03yFcQwOebChjC1KoE)]*
 The 800 stereo images in training set of the [Flickr1024 dataset](https://yingqianwang.github.io/Flickr1024/) are used as the training set of this challenge. Both HR images and their LR versions (produced by bicubic downsampling) will be released. The participants can use these HR images as groundtruths to train their models. 
 
-### Validation Set:
+### Validation Set: *[[download HR-LR validation data](https://www.jianguoyun.com/p/DeGlXW0QwOebChjE1KoE)]*
 The 112 stereo images in the validation set of the [Flickr1024 dataset](https://yingqianwang.github.io/Flickr1024/) are used as the validation set of this challenge. Similar to the training set, both HR and LR images in the validation set are provided. The participants can download the validation set to evaluate the performance of their developed models by comparing their super-resolved images with the HR groundtruth images. **Note that, the validation set should be used for validation purpose only but cannot be used as additional training data.** The participants are encouraged to write papers to describe their methods and use the released validation set for performance evaluation.
 
 ### Test Set:
