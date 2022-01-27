@@ -33,20 +33,14 @@ The 112 stereo images in the validation set of the [Flickr1024 dataset](https://
 To rank the submitted models, a test set consisting of 100 stereo images will be provided. Different from the training and validation sets, only LR images will be released. The participants are required to apply their models to the released LR stereo images and submit their super-resolved images to the server. It should be noted that the images in the test set (even the LR versions) cannot be used for training.
 
 ## Evaluation Metrics
-Peak signal-to-noise ratio (PSNR) and structural similarity (SSIM) will be used as metrics for performance evaluation.  Besides, we will use the warping error to measure the stereo consistency between the SR results. The warping error is defined as the mean square error between SR left and warped SR right images. **Note that, only PSNR is used for ranking.** PSNR and SSIM implementations can be found in most of the image processing toolboxes, for example, `scikit-image` and `tensorflow.image`. We report the average results of left and right views over all of the test scenes. Boundary cropping is not performed. 
-To calculate warping error, we adopt a state-of-the-art stereo matching method to estimate dense disparities between HR images.
+We evaluate the submitted results by comparing them with the ground truth stereo image pairs. To measure the fidelity, we use the standard Peak Signal to Noise Ratio (PSNR) and, complementarily, the Structural Similarity (SSIM) index as they are often employed in the literature. PSNR and SSIM implementations can be found in most of the image processing toolboxes. We report the average results over all the processed stereo images (both left and right) in the evaluation dataset. **Note that, the final results are ranked by PSNR calculated in the RGB domain.**
 
-```
-import imageio
-from skimage.metrics import peak_signal_noise_ratio, structural_similarity
-ref_img = imageio.imread('ref_img_name.png')
-res_img = imageio.imread('res_img_name.png')
-psnr = peak_signal_noise_ratio(ref_img, res_img)
-ssim = structural_similarity(ref_img, res_img, multichannel=True, %gaussian_weights=True, use_sample_covariance=False)
-```
 
 ## Baseline Model
 Over the last few years, several milestone methods have been developed for stereo image SR, including [StereoSR](https://github.com/PeterZhouSZ/stereosr), [PASSRnet](https://github.com/The-Learning-And-Vision-Atelier-LAVA/PASSRnet) and [iPASSR](https://github.com/YingqianWang/iPASSR). In this challenge, [PASSRnet](https://github.com/The-Learning-And-Vision-Atelier-LAVA/PASSRnet) is used as a baseline model and the submitted results should be at least on par with PASSRnet. The solutions with PSNR values lower than PASSRnet will not be ranked in the leaderboard.
+
+## Submission
+We use CodaLab for online submission in the development phase. In the test phase, the final results and the source codes (both trainin and test) need to be submitted via emails (ntire.stereosr@outlook.com). Please refer to our online website for details of the submission rules.
 
 ## Important Dates
 * 2022-01-21: Release of training and validation data;
@@ -59,6 +53,10 @@ Over the last few years, several milestone methods have been developed for stere
 * 2022-04-04: Paper decision notification;
 * 2022-04-08: Camera-ready;
 * 2022-06-20: Workshop day;
+
+## Group number policy
+Each group cannot have more than six group members (i.e., 1 to 6 group members is OK), and each paricipant can only join one group. Each group can only submit one algorithm for final ranking.
+
 
 ## Issues and Questions:
 The Stereo Image SR Challenge Forum: Please scan the code to join our WeChat group or raise issues to this repo:
