@@ -40,7 +40,7 @@ We evaluate the submitted results by comparing them with the ground truth stereo
 Over the last few years, several milestone methods have been developed for stereo image SR, including [StereoSR](https://github.com/PeterZhouSZ/stereosr), [PASSRnet](https://github.com/The-Learning-And-Vision-Atelier-LAVA/PASSRnet) and [iPASSR](https://github.com/YingqianWang/iPASSR). In this challenge, [PASSRnet](https://github.com/The-Learning-And-Vision-Atelier-LAVA/PASSRnet) is used as a baseline model and the submitted results should be at least on par with PASSRnet. The solutions with PSNR values lower than PASSRnet will not be ranked in the leaderboard.
 
 ## Submission
-We use CodaLab for online submission in the development phase. In the test phase, the final results and the source codes (both trainin and test) need to be submitted via emails (ntire.stereosr@outlook.com). Please refer to our online website for details of the submission rules.
+We use CodaLab for online submission in the development phase. In the test phase, the final results and the source codes (both training and test) need to be submitted via emails (ntire.stereosr@outlook.com). Please refer to our online website for details of the submission rules.
 
 ## Important Dates
 * 2022-01-21: Release of training and validation data;
@@ -59,7 +59,8 @@ Each group cannot have more than six group members (i.e., 1 to 6 group members i
 
 
 ## Issues and Questions:
-The Stereo Image SR Challenge Forum: Please scan the code to join our WeChat group or raise issues to this repo:
+For any question regarding this challenge, please send an email to [ntire.stereosr@outlook.com](ntire.stereosr@outlook.com), or raise an issue under this repository. <br>
+You can also join our WeChat group by scanning the code below:
 
 <p align="center"> <img src="https://raw.github.com/The-Learning-And-Vision-Atelier-LAVA/Stereo-Image-SR/NTIRE2022/Fig/WeChat.jpg" width="30%"> </p>
 
