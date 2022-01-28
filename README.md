@@ -4,7 +4,7 @@
 **Stereo image super-resolution (SR) challenge is held as a part of the [NTIRE workshop](https://data.vision.ee.ethz.ch/cvl/ntire22/) in conjunction with CVPR 2022. The goal of this challenge is to develop methods to accurately recover high-resolution (HR) stereo image pairs.** <br>
 
 ## News and Updates:
-* **2021-01-28: Validation server is online. Participants can sign up for the challenge and submit their results [here](https://codalab.lisn.upsaclay.fr/competitions/1598).
+* **2021-01-28: Validation server is online. Participants can sign up for the challenge and submit their results [here](https://codalab.lisn.upsaclay.fr/competitions/1598).**
 * **2021-01-21: [Training ](https://www.jianguoyun.com/p/DR03yFcQwOebChjC1KoE) and [validation](https://www.jianguoyun.com/p/DeGlXW0QwOebChjE1KoE) data has been released. Paticipants can use the released data to develop their algorithms (only 4xSR is considered in this challenge). We are still waiting for further notes from the NTIRE organizers.**
 
 
