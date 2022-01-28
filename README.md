@@ -4,7 +4,7 @@
 **Stereo image super-resolution (SR) challenge is held as a part of the [NTIRE workshop](https://data.vision.ee.ethz.ch/cvl/ntire22/) in conjunction with CVPR 2022. The goal of this challenge is to develop methods to accurately recover high-resolution (HR) stereo image pairs.** <br>
 
 ## News and Updates:
-
+* **2021-01-28: Validation server is online. Participants can sign up for the challenge and submit their results [here](https://codalab.lisn.upsaclay.fr/competitions/1598).
 * **2021-01-21: [Training ](https://www.jianguoyun.com/p/DR03yFcQwOebChjC1KoE) and [validation](https://www.jianguoyun.com/p/DeGlXW0QwOebChjE1KoE) data has been released. Paticipants can use the released data to develop their algorithms (only 4xSR is considered in this challenge). We are still waiting for further notes from the NTIRE organizers.**
 
 
@@ -40,7 +40,7 @@ We evaluate the submitted results by comparing them with the ground truth stereo
 Over the last few years, several milestone methods have been developed for stereo image SR, including [StereoSR](https://github.com/PeterZhouSZ/stereosr), [PASSRnet](https://github.com/The-Learning-And-Vision-Atelier-LAVA/PASSRnet) and [iPASSR](https://github.com/YingqianWang/iPASSR). In this challenge, [PASSRnet](https://github.com/The-Learning-And-Vision-Atelier-LAVA/PASSRnet) is used as a baseline model and the submitted results should be at least on par with PASSRnet. The solutions with PSNR values lower than PASSRnet will not be ranked in the leaderboard.
 
 ## Submission
-We use CodaLab for online submission in the development phase. In the test phase, the final results and the source codes (both training and test) need to be submitted via emails (ntire.stereosr@outlook.com). Please refer to our online website for details of the submission rules.
+We use [CodaLab](https://codalab.lisn.upsaclay.fr/competitions/1598) for online submission in the development phase. In the test phase, the final results and the source codes (both training and test) need to be submitted via emails (ntire.stereosr@outlook.com). Please refer to our [online website](https://codalab.lisn.upsaclay.fr/competitions/1598) for details of the submission rules.
 
 ## Important Dates
 * 2022-01-21: Release of training and validation data;
@@ -77,5 +77,5 @@ We would like to thank **<a href="https://www.flickr.com/photos/stereotron/" tar
  and **<a href="https://www.flickr.com/photos/tombentz" target="_blank">Tom Bentz</a>** for the approval of using their cross-eye stereo photographs. <br>
 
 ## NTIRE 2022 Terms and Conditions:
-The terms and conditions for participating in the challenge are provided [here]().
+The terms and conditions of this challenge can be viewed [here](https://codalab.lisn.upsaclay.fr/competitions/1598#learn_the_details-terms_and_conditions).
 
