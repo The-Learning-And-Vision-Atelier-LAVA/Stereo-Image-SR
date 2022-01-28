@@ -39,6 +39,12 @@ We evaluate the submitted results by comparing them with the ground truth stereo
 ## Baseline Model
 Over the last few years, several milestone methods have been developed for stereo image SR, including [StereoSR](https://github.com/PeterZhouSZ/stereosr), [PASSRnet](https://github.com/The-Learning-And-Vision-Atelier-LAVA/PASSRnet) and [iPASSR](https://github.com/YingqianWang/iPASSR). In this challenge, [PASSRnet](https://github.com/The-Learning-And-Vision-Atelier-LAVA/PASSRnet) is used as a baseline model and the submitted results should be at least on par with PASSRnet. The solutions with PSNR values lower than PASSRnet will not be ranked in the leaderboard.
 
+### PSNR and SSIM values achieved by baseline methods on the validation set for 4xSR:
+| Method | PSNR (Y)  |  PSNR (RGB)  | SSIM (Y)  | SSIM (RGB)  |
+|:------:|  :--------: | :--------: | :---------: | :-------: |
+| Bicubic    | 23.3865 | 21.8358 | 0.6443 | 0.6287 |
+| PASSRnet   | 24.6990 | 23.1211 | 0.7283 | 0.7095 |
+
 ## Submission
 We use [CodaLab](https://codalab.lisn.upsaclay.fr/competitions/1598) for online submission in the development phase. In the test phase, the final results and the source codes (both training and test) need to be submitted via emails (ntire.stereosr@outlook.com). Please refer to our [online website](https://codalab.lisn.upsaclay.fr/competitions/1598) for details of the submission rules.
 
