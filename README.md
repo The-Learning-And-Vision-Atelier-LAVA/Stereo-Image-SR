@@ -6,7 +6,7 @@
 ## News and Updates:
 * **2021-02-07**: Update readme and address the policy of external data usage of this challenge. **That is, external dataset (e.g., the Middlebury or KITTI datasets, validation/test sets of the Flickr1024 dataset) is NOT allowed in this challenge. Besides, models pretrained on other datasets (e.g., RCAN/SwinIR developed on DIV2K datasets) are NOT allowed in this challenge.**
 * **2021-01-28**: Validation server is online. Participants can sign up for the challenge and submit their results [here](https://codalab.lisn.upsaclay.fr/competitions/1598).
-* **2021-01-21**: Training ([Google Drive](https://drive.google.com/file/d/1CjfnSpdpmLssYvHU2EgQoRqKbnzYItcC/view?usp=sharing))  and validation ([Google Drive](https://drive.google.com/file/d/1D-el9JGt0RVYCl8nZ4_LSg6fyVfgcKHV/view?usp=sharing)） data has been released. Paticipants can use the released data to develop their algorithms (only 4xSR is considered in this challenge). We are still waiting for further notes from the NTIRE organizers.
+* **2021-01-21**: Training ([Jianguoyun Drive](https://www.jianguoyun.com/p/DR03yFcQwOebChjC1KoE) or [Google Drive](https://drive.google.com/file/d/1CjfnSpdpmLssYvHU2EgQoRqKbnzYItcC/view?usp=sharing))  and validation ([Jianguoyun Drive](https://www.jianguoyun.com/p/DeGlXW0QwOebChjE1KoE) or [Google Drive](https://drive.google.com/file/d/1D-el9JGt0RVYCl8nZ4_LSg6fyVfgcKHV/view?usp=sharing)） data has been released. Paticipants can use the released data to develop their algorithms (only 4xSR is considered in this challenge). We are still waiting for further notes from the NTIRE organizers.
 
 
 ## Introduction
@@ -24,10 +24,10 @@ During the model development phase, the training set and the validation set will
 During the test phase, the test set will be released, which includes LR images only. Challenge participants should apply their trained models to the LR test images to generate super-resolved test images.  These super-resolved images will then be submitted by the participants and evaluated by the organizers with a set of objective quantitative metrics.
 
 ## Datasets
-### Training Set: *[[download HR-LR training data](https://drive.google.com/file/d/1CjfnSpdpmLssYvHU2EgQoRqKbnzYItcC/view?usp=sharing)]*
+### Training Set: *[[download HR-LR training data](https://www.jianguoyun.com/p/DR03yFcQwOebChjC1KoE)]*
 The 800 stereo images in training set of the [Flickr1024 dataset](https://yingqianwang.github.io/Flickr1024/) are used as the training set of this challenge. Both HR images and their LR versions (produced by bicubic downsampling) will be released. The participants can use these HR images as groundtruths to train their models. **Note that, external dataset (e.g., the Middlebury or KITTI datasets, validation/test sets of the Flickr1024 dataset) is NOT allowed in this challenge. Besides, models pretrained on other datasets (e.g., RCAN/SwinIR developed on DIV2K datasets) are NOT allowed in this challenge.**
 
-### Validation Set: *[[download HR-LR validation data](https://drive.google.com/file/d/1D-el9JGt0RVYCl8nZ4_LSg6fyVfgcKHV/view?usp=sharing)]*
+### Validation Set: *[[download HR-LR validation data](https://www.jianguoyun.com/p/DeGlXW0QwOebChjE1KoE)]*
 The 112 stereo images in the validation set of the [Flickr1024 dataset](https://yingqianwang.github.io/Flickr1024/) are used as the validation set of this challenge. Similar to the training set, both HR and LR images in the validation set are provided. The participants can download the validation set to evaluate the performance of their developed models by comparing their super-resolved images with the HR groundtruth images. **Note that, the validation set should be used for validation purpose only but cannot be used as additional training data.** The participants are encouraged to write papers to describe their methods and use the released validation set for performance evaluation.
 
 ### Test Set:
@@ -47,7 +47,7 @@ Over the last few years, several milestone methods have been developed for stere
 | PASSRnet   | 24.6990 | 23.1211 | 0.7283 | 0.7095 |
 
 ## Submission
-We use [CodaLab](https://codalab.lisn.upsaclay.fr/competitions/1598) for online submission in the development phase. **Here, we provide an example ([download link (Google Drive)](https://drive.google.com/file/d/1gyaan54AwbAYLIIA1rly_wrLzdyQ7VAh/view?usp=sharing) to help participants to format their submissions.** In the test phase, the final results and the source codes (both training and test) need to be submitted via emails (ntire.stereosr@outlook.com). Please refer to our [online website](https://codalab.lisn.upsaclay.fr/competitions/1598) for details of the submission rules.
+We use [CodaLab](https://codalab.lisn.upsaclay.fr/competitions/1598) for online submission in the development phase. **Here, we provide an example ([Jianguoyun Drive](https://www.jianguoyun.com/p/DXWimH4QwOebChipxasE) or [Google Drive](https://drive.google.com/file/d/1gyaan54AwbAYLIIA1rly_wrLzdyQ7VAh/view?usp=sharing)) to help participants to format their submissions.** In the test phase, the final results and the source codes (both training and test) need to be submitted via emails (ntire.stereosr@outlook.com). Please refer to our [online website](https://codalab.lisn.upsaclay.fr/competitions/1598) for details of the submission rules.
 
 ## Important Dates
 * 2022-01-21: Release of training and validation data;
@@ -66,7 +66,7 @@ Each group cannot have more than six group members (i.e., 1 to 6 group members i
 
 
 ## Issues and Questions:
-For any question regarding this challenge, please send an email to [ntire.stereosr@outlook.com](ntire.stereosr@outlook.com), or raise an issue under this repository. <br>
+For any question regarding this challenge, raise an issue under this repository. <br>
 You can also join our WeChat group by scanning the code below:
 
 <p align="center"> <img src="https://raw.github.com/The-Learning-And-Vision-Atelier-LAVA/Stereo-Image-SR/NTIRE2022/Fig/WeChat.jpg" width="30%"> </p>
