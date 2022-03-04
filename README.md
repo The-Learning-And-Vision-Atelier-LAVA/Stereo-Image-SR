@@ -4,6 +4,7 @@
 **Stereo image super-resolution (SR) challenge is held as a part of the [NTIRE workshop](https://data.vision.ee.ethz.ch/cvl/ntire22/) in conjunction with CVPR 2022. The goal of this challenge is to develop methods to accurately recover high-resolution (HR) stereo image pairs.** <br>
 
 ## News and Updates:
+* **2021-03-04**: The timeline of the challenge has been extended.
 * **2021-02-07**: Update readme and address the policy of external data usage of this challenge. **That is, external dataset (e.g., the Middlebury or KITTI datasets, validation/test sets of the Flickr1024 dataset) is NOT allowed in this challenge. Besides, models pretrained on other datasets (e.g., RCAN/SwinIR developed on DIV2K datasets) are NOT allowed in this challenge.**
 * **2021-01-28**: Validation server is online. Participants can sign up for the challenge and submit their results [here](https://codalab.lisn.upsaclay.fr/competitions/1598).
 * **2021-01-21**: Training ([Jianguoyun Drive](https://www.jianguoyun.com/p/DR03yFcQwOebChjC1KoE) or [Google Drive](https://drive.google.com/file/d/1CjfnSpdpmLssYvHU2EgQoRqKbnzYItcC/view?usp=sharing))  and validation ([Jianguoyun Drive](https://www.jianguoyun.com/p/DeGlXW0QwOebChjE1KoE) or [Google Drive](https://drive.google.com/file/d/1D-el9JGt0RVYCl8nZ4_LSg6fyVfgcKHV/view?usp=sharing)） data has been released. Paticipants can use the released data to develop their algorithms (only 4xSR is considered in this challenge). We are still waiting for further notes from the NTIRE organizers.
