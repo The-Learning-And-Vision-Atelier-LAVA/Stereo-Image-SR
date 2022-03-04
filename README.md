@@ -52,14 +52,11 @@ We use [CodaLab](https://codalab.lisn.upsaclay.fr/competitions/1598) for online 
 ## Important Dates
 * 2022-01-21: Release of training and validation data;
 * 2022-01-31: Validation server online;
-* 2022-03-13: Final test data release, validation server closed;
-* 2022-03-20: Test result submission deadline;
-* 2022-03-20: Fact sheet / code / model submission deadline;
-* 2022-03-22: Test preliminary score release to the participants;
+* 2022-03-23: Final test data release, validation server closed;
+* 2022-03-30: Test result submission deadline;
+* 2022-03-30: Fact sheet / code / model submission deadline;
+* 2022-04-01: Test preliminary score release to the participants;
 * 2022-04-01: Challenge paper submission deadline;
-* 2022-04-04: Paper decision notification;
-* 2022-04-08: Camera-ready;
-* 2022-06-20: Workshop day;
 
 ## Group number policy
 Each group cannot have more than six group members (i.e., 1 to 6 group members is OK), and each paricipant can only join one group. Each group can only submit one algorithm for final ranking.
