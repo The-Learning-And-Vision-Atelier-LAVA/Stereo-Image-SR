@@ -29,7 +29,7 @@
 | **iPASSR** | Symmetric Parallax Attention for Stereo Image Super-Resolution, [CVPRW 2021](https://arxiv.org/pdf/2011.03802.pdf). | [YingqianWang/<br/>iPASSR](https://github.com/YingqianWang/iPASSR) |
 | **DFAM**  | A Disparity Feature Alignment Module for Stereo Image Super-Resolution, [SPL 2021](https://ieeexplore.ieee.org/document/9449947). | [JiawangDan/DFAM](https://github.com/JiawangDan/DFAM) |
 | **CVCnet** | Cross View Capture for Stereo Image Super-Resolution, TMM 2021. | [xyzhu1/CVCnet](https://github.com/xyzhu1/CVCnet) |
-| **SSRDE-FNet** | Feedback Network for Mutually Boosted Stereo Image Super-Resolution and Disparity Estimation, [ACM MM 2021](https://arxiv.org/pdf/2106.00985.pdf). | -- |
+| **SSRDE-FNet** | Feedback Network for Mutually Boosted Stereo Image Super-Resolution and Disparity Estimation, [ACM MM 2021](https://arxiv.org/pdf/2106.00985.pdf). | [MIVRC/SSRDEFNet-PyTorch](https://github.com/MIVRC/SSRDEFNet-PyTorch) |
 | **SVSRNet** | Stereo video super-resolution via exploiting view-temporal correlations, [ACM MM 2021](https://dl.acm.org/doi/abs/10.1145/3474085.3475189). | -- |
 | **PSSR** | Perception-Oriented Stereo Image Super-Resolution, [ACM MM 2021](https://dl.acm.org/doi/abs/10.1145/3474085.3475408). | -- |
 
