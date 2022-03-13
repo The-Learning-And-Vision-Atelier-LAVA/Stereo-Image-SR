@@ -39,7 +39,7 @@ We evaluate the submitted results by comparing them with the ground truth stereo
 
 
 ## Baseline Model
-Over the last few years, several milestone methods have been developed for stereo image SR, including [StereoSR](https://github.com/PeterZhouSZ/stereosr), [PASSRnet](https://github.com/The-Learning-And-Vision-Atelier-LAVA/PASSRnet), [iPASSR](https://github.com/YingqianWang/iPASSR) and [SSRDEFNet](https://github.com/MIVRC/SSRDEFNet-PyTorch). In this challenge, [PASSRnet](https://github.com/The-Learning-And-Vision-Atelier-LAVA/PASSRnet) is used as a baseline model and the submitted results should be at least on par with PASSRnet. The solutions with PSNR values lower than PASSRnet will not be ranked in the leaderboard.
+Over the last few years, several milestone methods have been developed for stereo image SR, including [StereoSR](https://github.com/PeterZhouSZ/stereosr), [PASSRnet](https://github.com/The-Learning-And-Vision-Atelier-LAVA/PASSRnet), [iPASSR](https://github.com/YingqianWang/iPASSR) and [SSRDE-FNet](https://github.com/MIVRC/SSRDEFNet-PyTorch). In this challenge, [PASSRnet](https://github.com/The-Learning-And-Vision-Atelier-LAVA/PASSRnet) is used as a baseline model and the submitted results should be at least on par with PASSRnet. The solutions with PSNR values lower than PASSRnet will not be ranked in the leaderboard.
 
 ### PSNR and SSIM values achieved by baseline methods on the validation set for 4xSR:
 | Method | PSNR (Y)  |  PSNR (RGB)  | SSIM (Y)  | SSIM (RGB)  |
