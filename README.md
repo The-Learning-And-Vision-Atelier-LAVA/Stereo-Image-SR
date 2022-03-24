@@ -4,6 +4,7 @@
 **Stereo image super-resolution (SR) challenge is held as a part of the [NTIRE workshop](https://data.vision.ee.ethz.ch/cvl/ntire22/) in conjunction with CVPR 2022. The goal of this challenge is to develop methods to accurately recover high-resolution (HR) stereo image pairs.** <br>
 
 ## News and Updates:
+* **2021-03-24**: Test data ([Jianguoyun](https://www.jianguoyun.com/p/DWQY4hYQwOebChjh37QE) or [Google Drive](https://drive.google.com/file/d/1moEgPa0S9kaV9WHaY_cmFkQZ6YwwhXk0/view?usp=sharing)) has been released. Paticipants can apply their developed models to the released test data, and submit their SR results to the [test server](https://codalab.lisn.upsaclay.fr/competitions/1598#learn_the_details). 
 * **2021-03-04**: The timeline of the challenge has been extended.
 * **2021-02-07**: Update readme and address the policy of external data usage of this challenge. **That is, external dataset (e.g., the Middlebury or KITTI datasets, validation/test sets of the Flickr1024 dataset) is NOT allowed in this challenge. Besides, models pretrained on other datasets (e.g., RCAN/SwinIR developed on DIV2K datasets) are NOT allowed in this challenge.**
 * **2021-01-28**: Validation server is online. Participants can sign up for the challenge and submit their results [here](https://codalab.lisn.upsaclay.fr/competitions/1598).
@@ -31,8 +32,8 @@ The 800 stereo images in training set of the [Flickr1024 dataset](https://yingqi
 ### Validation Set: *[[download HR-LR validation data](https://www.jianguoyun.com/p/DeGlXW0QwOebChjE1KoE)]*
 The 112 stereo images in the validation set of the [Flickr1024 dataset](https://yingqianwang.github.io/Flickr1024/) are used as the validation set of this challenge. Similar to the training set, both HR and LR images in the validation set are provided. The participants can download the validation set to evaluate the performance of their developed models by comparing their super-resolved images with the HR groundtruth images. **Note that, the validation set should be used for validation purpose only but cannot be used as additional training data.** The participants are encouraged to write papers to describe their methods and use the released validation set for performance evaluation.
 
-### Test Set:
-To rank the submitted models, a test set consisting of 100 stereo images will be provided. Different from the training and validation sets, only LR images will be released. The participants are required to apply their models to the released LR stereo images and submit their super-resolved images to the server. It should be noted that the images in the test set (even the LR versions) cannot be used for training.
+### Test Set: *[[download LR test data](https://www.jianguoyun.com/p/DWQY4hYQwOebChjh37QE)]*
+To rank the submitted models, a test set consisting of 100 stereo images are provided. Different from the training and validation sets, only LR images will be released. The participants are required to apply their models to the released LR stereo images and submit their super-resolved images to the server. It should be noted that the images in the test set (even the LR versions) cannot be used for training.
 
 ## Evaluation Metrics
 We evaluate the submitted results by comparing them with the ground truth stereo image pairs. To measure the fidelity, we use the standard Peak Signal to Noise Ratio (PSNR) and, complementarily, the Structural Similarity (SSIM) index as they are often employed in the literature. PSNR and SSIM implementations can be found in most of the image processing toolboxes. We report the average results over all the processed stereo images (both left and right) in the evaluation dataset. **Note that, the final results are ranked by PSNR calculated in the RGB domain.**
