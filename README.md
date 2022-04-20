@@ -3,6 +3,10 @@
 
 #### Note: This repository will be updated on a regular basis, so stay tuned~~🎉🎉🎉
 
+### News:
+* 2022-04-20: We add a new work [*NAFSSR*](https://github.com/megvii-research/NAFNet) to our repo, which is the Champion of the [*NTIRE 2022 Stereo Image Super-Resolution Challenge*](https://github.com/The-Learning-And-Vision-Atelier-LAVA/Stereo-Image-SR/tree/NTIRE2022).
+
+
 ## Challenges:
 ### [*NTIRE 2022 Stereo Image Super-Resolution Challenge*](https://github.com/YingqianWang/Stereo-Image-SR/tree/NTIRE2022)
 
@@ -32,6 +36,7 @@
 | **SSRDE-FNet** | Feedback Network for Mutually Boosted Stereo Image Super-Resolution and Disparity Estimation, [ACM MM 2021](https://arxiv.org/pdf/2106.00985.pdf). | [MIVRC/SSRDEFNet-PyTorch](https://github.com/MIVRC/SSRDEFNet-PyTorch) |
 | **SVSRNet** | Stereo video super-resolution via exploiting view-temporal correlations, [ACM MM 2021](https://dl.acm.org/doi/abs/10.1145/3474085.3475189). | -- |
 | **PSSR** | Perception-Oriented Stereo Image Super-Resolution, [ACM MM 2021](https://dl.acm.org/doi/abs/10.1145/3474085.3475408). | -- |
+| **NAFSSR** | NAFSSR: Stereo Image Super-Resolution Using NAFNet, [CVPRW 2022](https://arxiv.org/pdf/2204.08714.pdf). | [megvii-research/<br/>NAFNet](https://github.com/megvii-research/NAFNet) |
 
 ## Benchmark
 **We benchmark several methods on the KITTI 2012, KITTI 2015, Middlebury and Flickr1024 datasets. The test sets used below can be downloaded from [Google Drive](https://drive.google.com/file/d/1LQDUclNtNZWTT41NndISLGvjvuBbxeUs/view?usp=sharing) and [Baidu Drive](https://pan.baidu.com/s/1SIYGcMBEDDZ0wYrkxL9bnQ) (Key: NUDT). Note that, All these methods have been retrained on the same training set (60 images from the Middlebury dataset and 800 images from the Flickr1024 dataset) for fair comparison.**
@@ -52,6 +57,10 @@
 | BSSRnet    | 2×  | 1.89M | 31.03/0.9241 | 30.74/0.9344 | 34.74/0.9475 | 28.53/0.9090 |
 | iPASSR     | 2×  | 1.37M | 31.11/0.9240 | 30.81/0.9340 | 34.51/0.9454 | 28.60/0.9097 |
 | SSRDE-FNet | 2×  | 2.10M | 31.23/0.9254 | 30.90/0.9352 | 35.09/0.9511 | 28.85/0.9132 |
+| NAFSSR-T   | 2×  | 0.45M | 31.26/0.9254 | 30.99/0.9355 | 35.01/0.9495 | 28.94/0.9128 |
+| NAFSSR-S   | 2×  | 1.54M | 31.38/0.9266 | 31.08/0.9367 | 35.30/0.9514 | 29.19/0.9160 |
+| NAFSSR-B   | 2×  | 6.77M | 31.55/0.9283 | 31.22/0.9380 | 35.68/0.9544 | 29.54/0.9204 |
+| NAFSSR-L   | 2×  | 23.8M | 31.60/0.9291 | 31.25/0.9386 | 35.88/0.9557 | 29.68/0.9221 |
 			
 ### PSNR and SSIM values achieved by different methods for 4xSR:
 | Method | Scale | #Params.|  KITTI 2012  |  KITTI 2015  |  Middlebury  |  Flickr1024  |
@@ -67,6 +76,10 @@
 | BSSRnet    | 4×  | 1.91M | 26.47/0.8049 | 26.17/0.8075 | 29.08/0.8362 | 23.40/0.7289 |
 | iPASSR     | 4×  | 1.42M | 26.56/0.8053 | 26.32/0.8084 | 29.16/0.8367 | 23.44/0.7287 |
 | SSRDE-FNet | 4×  | 2.24M | 26.70/0.8082 | 26.43/0.8118 | 29.38/0.8411 | 23.59/0.7352 |
+| NAFSSR-T   | 4×  | 0.46M | 26.79/0.8105 | 26.62/0.8159 | 29.32/0.8409 | 23.69/0.7384 |
+| NAFSSR-S   | 4×  | 1.56M | 26.93/0.8145 | 26.76/0.8203 | 29.72/0.8490 | 23.88/0.7468 |
+| NAFSSR-B   | 4×  | 6.80M | 27.08/0.8181 | 26.91/0.8245 | 30.04/0.8568 | 24.07/0.7551 |
+| NAFSSR-L   | 4×  | 23.8M | 27.12/0.8194 | 26.96/0.8257 | 30.20/0.8605 | 24.17/0.7589 |
 
 ## Recources
 #### We provide some original super-resolved images and useful resources to facilitate researchers to reproduce the above results.
