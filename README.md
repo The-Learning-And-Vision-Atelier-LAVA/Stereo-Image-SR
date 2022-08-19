@@ -1,7 +1,7 @@
-# NTIRE 2022: Stereo Image Super-Resolution Challenge <br> 
+# NTIRE 2023: Stereo Image Super-Resolution Challenge <br> 
 <p align="center">  <img src="https://raw.github.com/YingqianWang/Stereo-Image-SR/NTIRE2022/Fig/logo.png" width="50%"> </p>
 
-**Stereo image super-resolution (SR) challenge is held as a part of the [NTIRE workshop](https://data.vision.ee.ethz.ch/cvl/ntire22/) in conjunction with CVPR 2022. The goal of this challenge is to develop methods to accurately recover high-resolution (HR) stereo image pairs.** <br>
+**Stereo image super-resolution (SR) challenge is held as a part of the [NTIRE workshop](https://data.vision.ee.ethz.ch/cvl/ntire22/) in conjunction with CVPR 2023. The goal of this challenge is to develop methods to accurately recover high-resolution (HR) stereo image pairs.** <br>
 
 ## News and Updates:
 * **2021-03-24**: Test data ([Jianguoyun](https://www.jianguoyun.com/p/DWQY4hYQwOebChjh37QE) or [Google Drive](https://drive.google.com/file/d/1moEgPa0S9kaV9WHaY_cmFkQZ6YwwhXk0/view?usp=sharing)) has been released. Paticipants can apply their developed models to the released test data, and submit their SR results to the [test server](https://codalab.lisn.upsaclay.fr/competitions/1598#learn_the_details). 
@@ -82,6 +82,6 @@ You can also join our WeChat group by scanning the code below:
 We would like to thank **<a href="https://www.flickr.com/photos/stereotron/" target="_blank">Sascha Becher</a>**
  and **<a href="https://www.flickr.com/photos/tombentz" target="_blank">Tom Bentz</a>** for the approval of using their cross-eye stereo photographs. <br>
 
-## NTIRE 2022 Terms and Conditions:
+## NTIRE 2023 Terms and Conditions:
 The terms and conditions of this challenge can be viewed [here](https://codalab.lisn.upsaclay.fr/competitions/1598#learn_the_details-terms_and_conditions).
 
