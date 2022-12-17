@@ -48,7 +48,7 @@ In this track, bicubic degradation (Matlab $imresize$ function in bicubic mode) 
 #### Evaluation Metrics:
 Given a pair of stereo SR results ($I^{SR}_{left}$ and $I^{SR}_{right}$), **LPIPS** is used as the metric to evaluate the perceptual quality of separate images. To further evaluate the stereo consistency between an SR image pair, we first use a state-of-the-art stereo matching method (RAFT-Stereo) to obtain a disparity map $D^{HR}$ from an HR image pair as the groundtruth. Then, a disparity map $D^{SR}$ is estimated from the SR image pair. Mean absolute error (MAE) between $D^{SR}$ and $D^{HR}$ is adopted as the metric to measure the stereo consistency. The final score is calculated as:
 
-$score= 1-0.5\times\mathcal{L}\left(I^{SR}_{left},I^{HR}_{left}\right)-0.5\times\mathcal{L}\left(I^{SR}_{right},I^{HR}_{right}\right)-\mathcal{S}\left(D^{SR},D^{HR}\right)$,
+$score = 1-0.5\times L\left(I^{SR}_{left}, I^{HR}_{left}\right) - 0.5 \times L\left(I^{SR}_{right}, I^{HR}_{right}\right) - S\left(D^{SR}, D^{HR} \right),$
 
 where $\mathcal{L}\left(I^{SR}_{left},I^{HR}_{left}\right)$ represents the LPIPS score of $I^{SR}_{left}$, $\mathcal{S}\left(D^{SR},D^{HR}\right)$ measures the stereo consistency between $I^{SR}_{left}$ and $I^{SR}_{right}$.
 
