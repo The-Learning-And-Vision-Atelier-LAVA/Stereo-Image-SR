@@ -46,11 +46,11 @@ Peak signal-to-noise ratio (PSNR) and structural similarity (SSIM) are used as m
 In this track, bicubic degradation (Matlab $imresize$ function in bicubic mode) is used to generate LR images, i.e., $I^{LR}=I^{HR}\downarrow_s$, where $I^{LR}$ and $I^{HR}$ are LR and HR images, $\downarrow_s$ represents bicubic downsampling with scale factor $s$. 
 
 #### Evaluation Metrics:
-Given a pair of stereo SR results ($I^{SR}_{left}$ and $I^{SR}_{right}$), **LPIPS** is used as the metric to evaluate the perceptual quality of separate images. To further evaluate the stereo consistency between an SR image pair, we first use a state-of-the-art stereo matching method (RAFT-Stereo) to obtain a disparity map $D^{HR}$ from an HR image pair as the groundtruth. Then, a disparity map $D^{SR}$ is estimated from the SR image pair. Mean absolute error (MAE) between $D^{SR}$ and $D^{HR}$ is adopted as the metric to measure the stereo consistency. The final score is calculated as:
+Given a pair of stereo SR results, **LPIPS** is used as the metric to evaluate the perceptual quality of separate images. To further evaluate the stereo consistency between an SR image pair, we first use a state-of-the-art stereo matching method (RAFT-Stereo) to obtain a disparity map $D^{HR}$ from an HR image pair as the groundtruth. Then, a disparity map $D^{SR}$ is estimated from the SR image pair. Mean absolute error (MAE) between $D^{SR}$ and $D^{HR}$ is adopted as the metric to measure the stereo consistency. The final score is calculated as:
 
-$score = 1-0.5\times L\left(I^{SR}_{left}, I^{HR}_{left}\right) - 0.5 \times L\left(I^{SR}_{right}, I^{HR}_{right}\right) - S\left(D^{SR}, D^{HR} \right),$
+$score = 1-0.5\times \mathcal{L} \left(I^{SRleft}, I^{HRleft}\right) - 0.5 \times \mathcal{L}\left(I^{SRright}, I^{HRright}\right) - \mathcal{S} \left(D^{SR}, D^{HR} \right),$
 
-where $\mathcal{L}\left(I^{SR}_{left},I^{HR}_{left}\right)$ represents the LPIPS score of $I^{SR}_{left}$, $\mathcal{S}\left(D^{SR},D^{HR}\right)$ measures the stereo consistency between $I^{SR}_{left}$ and $I^{SR}_{right}$.
+where $\mathcal{L}\left(I^{SRleft}, I^{HRleft}\right)$ represents the LPIPS score of $I^{SRleft}$, $\mathcal{S}\left(D^{SR},D^{HR}\right)$ measures the stereo consistency between $I^{SRleft}$ and $I^{SRright}$.
 
 ### Track 3: Fidelity & Realistic Degradation
 #### Degradation Model:
@@ -68,13 +68,13 @@ PSNR and SSIM are used as metrics for performance evaluation. The average result
 We use [CodaLab]() for online submission in the development phase. **Here, we provide an example ([Jianguoyun Drive](https://www.jianguoyun.com/p/DXWimH4QwOebChipxasE) or [Google Drive](https://drive.google.com/file/d/1gyaan54AwbAYLIIA1rly_wrLzdyQ7VAh/view?usp=sharing)) to help participants to format their submissions.** In the test phase, the final results and the source codes (both training and test) need to be submitted via emails (ntire.stereosr@outlook.com). Please refer to our [online website](https://codalab.lisn.upsaclay.fr/competitions/1598) for details of the submission rules.
 
 ## Important Dates
-* 2022-01-21: Release of training and validation data;
-* 2022-01-31: Validation server online;
-* 2022-03-23: Final test data release, validation server closed;
-* 2022-03-30: Test result submission deadline;
-* 2022-03-30: Fact sheet / code / model submission deadline;
-* 2022-04-01: Test preliminary score release to the participants;
-* 2022-04-01: Challenge paper submission deadline;
+* 2023-01-21: Release of training and validation data;
+* 2023-01-31: Validation server online;
+* 2023-03-23: Final test data release, validation server closed;
+* 2023-03-30: Test result submission deadline;
+* 2023-03-30: Fact sheet / code / model submission deadline;
+* 2023-04-01: Test preliminary score release to the participants;
+* 2023-04-01: Challenge paper submission deadline;
 
 ## Group number policy
 Each group cannot have more than six group members (i.e., 1 to 6 group members is OK), and each paricipant can only join one group. Each group can only submit one algorithm for final ranking.
