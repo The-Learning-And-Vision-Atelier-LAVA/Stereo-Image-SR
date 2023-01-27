@@ -1,7 +1,7 @@
 # NTIRE 2023: Stereo Image Super-Resolution Challenge <br> 
 <p align="center">  <img src="https://raw.github.com/YingqianWang/Stereo-Image-SR/NTIRE2023/Fig/logo.png" width="50%"> </p>
 
-**Stereo image super-resolution (SR) challenge is held as a part of the [NTIRE workshop](https://data.vision.ee.ethz.ch/cvl/ntire23/) in conjunction with CVPR 2023. The goal of this challenge is to develop methods to recover high-resolution (HR) stereo image pairs.** <br>
+**Stereo image super-resolution (SR) challenge is held as a part of the [NTIRE workshop](https://cvlai.net/ntire/2023/) in conjunction with CVPR 2023. The goal of this challenge is to develop methods to recover high-resolution (HR) stereo image pairs.** <br>
 
 ## News and Updates:
 * **2022-12-16**: Our workshop proposal has been accepted.
@@ -68,13 +68,13 @@ PSNR and SSIM are used as metrics for performance evaluation. The average result
 We use [CodaLab]() for online submission in the development phase. **Here, we provide an example ([Jianguoyun Drive](https://www.jianguoyun.com/p/DXWimH4QwOebChipxasE) or [Google Drive](https://drive.google.com/file/d/1gyaan54AwbAYLIIA1rly_wrLzdyQ7VAh/view?usp=sharing)) to help participants to format their submissions.** In the test phase, the final results and the source codes (both training and test) need to be submitted via emails (ntire.stereosr@outlook.com). Please refer to our [online website](https://codalab.lisn.upsaclay.fr/competitions/1598) for details of the submission rules.
 
 ## Important Dates
-* 2023-01-21: Release of training and validation data;
-* 2023-01-31: Validation server online;
-* 2023-03-23: Final test data release, validation server closed;
-* 2023-03-30: Test result submission deadline;
-* 2023-03-30: Fact sheet / code / model submission deadline;
-* 2023-04-01: Test preliminary score release to the participants;
-* 2023-04-01: Challenge paper submission deadline;
+* 2023-01-17: Release of training and validation data;
+* 2023-01-27: Validation server online;
+* 2023-03-07: Final test data release, validation server closed;
+* 2023-03-14: Test result submission deadline;
+* 2023-03-15: Fact sheet / code / model submission deadline;
+* 2023-03-17: Test preliminary score release to the participants;
+* 2023-03-28: Challenge paper submission deadline;
 
 ## Group number policy
 Each group cannot have more than six group members (i.e., 1 to 6 group members is OK), and each paricipant can only join one group. Each group can only submit one algorithm for final ranking.
