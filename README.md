@@ -4,6 +4,7 @@
 **Stereo image super-resolution (SR) challenge is held as a part of the [NTIRE workshop](https://cvlai.net/ntire/2023/) in conjunction with CVPR 2023. The goal of this challenge is to develop methods to recover high-resolution (HR) stereo image pairs.** <br>
 
 ## News and Updates:
+* **2023-01-30**: CodaLab servers for [Track1](https://codalab.lisn.upsaclay.fr/competitions/10047), [Track2](https://codalab.lisn.upsaclay.fr/competitions/10048) and [Track3](https://codalab.lisn.upsaclay.fr/competitions/10049) are online. Training and validation data has been released.
 * **2022-12-16**: Our workshop proposal has been accepted.
 
 ## Introduction
@@ -34,14 +35,14 @@ The 112 stereo images in the validation set of the [Flickr1024 dataset](https://
 To rank the submitted models, a test set consisting of 100 stereo images are provided. Different from the training and validation sets, only LR images will be released. The participants are required to apply their models to the released LR stereo images and submit their super-resolved images to the server. It should be noted that the images in the test set (even the LR versions) cannot be used for training.
 
 ## Tracks (NEW!)
-### Track 1: Fidelity & Bicubic Degradation
+### Track 1: [Fidelity & Bicubic Degradation](https://codalab.lisn.upsaclay.fr/competitions/10047)
 #### Degradation Model:
 In this track, bicubic degradation (Matlab $imresize$ function in bicubic mode) is used to generate LR images, i.e., $I^{LR}=I^{HR}\downarrow_s$, where $I^{LR}$ and $I^{HR}$ are LR and HR images, $\downarrow_s$ represents bicubic downsampling with scale factor $s$. 
 
 #### Evaluation Metrics:
 Peak signal-to-noise ratio (PSNR) and structural similarity (SSIM) are used as metrics for performance evaluation. The average results of left and right views over all of the test scenes are reported. Note that, only PSNR is used for ranking. 
 
-### Track 2: Perceptual & Bicubic Degradation
+### Track 2: [Perceptual & Bicubic Degradation](https://codalab.lisn.upsaclay.fr/competitions/10048)
 #### Degradation Model:
 In this track, bicubic degradation (Matlab $imresize$ function in bicubic mode) is used to generate LR images, i.e., $I^{LR}=I^{HR}\downarrow_s$, where $I^{LR}$ and $I^{HR}$ are LR and HR images, $\downarrow_s$ represents bicubic downsampling with scale factor $s$. 
 
@@ -52,7 +53,7 @@ $score = 1-0.5\times \mathcal{L} \left(I^{SRleft}, I^{HRleft}\right) - 0.5 \time
 
 where $\mathcal{L}\left(I^{SRleft}, I^{HRleft}\right)$ represents the LPIPS score of $I^{SRleft}$, $\mathcal{S}\left(D^{SR},D^{HR}\right)$ measures the stereo consistency between $I^{SRleft}$ and $I^{SRright}$.
 
-### Track 3: Fidelity & Realistic Degradation
+### Track 3: [Fidelity & Realistic Degradation](https://codalab.lisn.upsaclay.fr/competitions/10049)
 #### Degradation Model:
 In this track, a realistic degradation model consisting of blur, downsampling, noise, and compression is adopted to synthesize LR images:
 
@@ -69,7 +70,7 @@ We use [CodaLab]() for online submission in the development phase. **Here, we pr
 
 ## Important Dates
 * 2023-01-17: Release of training and validation data;
-* 2023-01-27: Validation server online;
+* 2023-01-30: Validation server online;
 * 2023-03-07: Final test data release, validation server closed;
 * 2023-03-14: Test result submission deadline;
 * 2023-03-15: Fact sheet / code / model submission deadline;
