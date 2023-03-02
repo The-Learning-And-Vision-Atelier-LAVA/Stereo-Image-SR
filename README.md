@@ -71,11 +71,12 @@ We use [CodaLab]() for online submission in the development phase. **Here, we pr
 ## Important Dates
 * 2023-01-17: Release of training and validation data;
 * 2023-01-30: Validation server online;
-* 2023-03-07: Final test data release, validation server closed;
-* 2023-03-14: Test result submission deadline;
-* 2023-03-15: Fact sheet / code / model submission deadline;
-* 2023-03-17: Test preliminary score release to the participants;
-* 2023-03-28: Challenge paper submission deadline;
+* 2023-03-14: Final test data release, validation server closed;
+* 2023-03-20: Test result submission deadline;
+* 2023-03-20: Fact sheet / code / model submission deadline;
+* 2023-03-22: Test preliminary score release to the participants;
+* 2023-03-31: Challenge paper submission deadline;
+<br><br>
 
 ## Group number policy
 Each group cannot have more than six group members (i.e., 1 to 6 group members is OK), and each paricipant can only join one group. Each group can only submit one algorithm for final ranking.
