@@ -1,7 +1,7 @@
-# NTIRE 2023: Stereo Image Super-Resolution Challenge <br> 
-<p align="center">  <img src="https://raw.github.com/YingqianWang/Stereo-Image-SR/NTIRE2023/Fig/logo.png" width="50%"> </p>
+# NTIRE 2024: Stereo Image Super-Resolution Challenge <br> 
+<p align="center">  <img src="https://raw.github.com/YingqianWang/Stereo-Image-SR/NTIRE2024/Fig/logo.png" width="50%"> </p>
 
-**Stereo image super-resolution (SR) challenge is held as a part of the [NTIRE workshop](https://cvlai.net/ntire/2023/) in conjunction with CVPR 2023. The goal of this challenge is to develop methods to recover high-resolution (HR) stereo image pairs.** <br>
+**Stereo image super-resolution (SR) challenge is held as a part of the [NTIRE workshop](https://cvlai.net/ntire/2024/) in conjunction with CVPR 2024. The goal of this challenge is to develop methods to recover high-resolution (HR) stereo image pairs.** <br>
 
 ## News and Updates:
 * **2023-01-30**: CodaLab servers for [Track1](https://codalab.lisn.upsaclay.fr/competitions/10047), [Track2](https://codalab.lisn.upsaclay.fr/competitions/10048) and [Track3](https://codalab.lisn.upsaclay.fr/competitions/10049) are online. Training and validation data has been released.
