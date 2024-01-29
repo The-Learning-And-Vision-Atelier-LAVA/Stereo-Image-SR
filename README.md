@@ -4,8 +4,7 @@
 **Stereo image super-resolution (SR) challenge is held as a part of the [NTIRE workshop](https://cvlai.net/ntire/2024/) in conjunction with CVPR 2024. The goal of this challenge is to develop methods to recover high-resolution (HR) stereo image pairs.** <br>
 
 ## News and Updates:
-* **2023-01-30**: CodaLab servers for [Track1](https://codalab.lisn.upsaclay.fr/competitions/10047), [Track2](https://codalab.lisn.upsaclay.fr/competitions/10048) and [Track3](https://codalab.lisn.upsaclay.fr/competitions/10049) are online. Training and validation data has been released.
-* **2022-12-16**: Our workshop proposal has been accepted.
+* **2024-01-29**: CodaLab servers for [Track1](https://codalab.lisn.upsaclay.fr/competitions/10047) and [Track2](https://codalab.lisn.upsaclay.fr/competitions/10048) are online. Training and validation data has been released.
 
 ## Introduction
 Stereo image pairs can encode 3D scene cues into stereo correspondences between the left and right images. 
@@ -35,30 +34,24 @@ The 112 stereo images in the validation set of the [Flickr1024 dataset](https://
 To rank the submitted models, a test set consisting of 100 stereo images are provided. Different from the training and validation sets, only LR images will be released. The participants are required to apply their models to the released LR stereo images and submit their super-resolved images to the server. It should be noted that the images in the test set (even the LR versions) cannot be used for training.
 
 ## Tracks (NEW!)
-### Track 1: [Fidelity & Bicubic Degradation](https://codalab.lisn.upsaclay.fr/competitions/10047)
+### Track 1: [Constrained SR & Bicubic Degradation](https://codalab.lisn.upsaclay.fr/competitions/10047)
 #### Degradation Model:
-In this track, bicubic degradation (Matlab $imresize$ function in bicubic mode) is used to generate LR images, i.e., $I^{LR}=I^{HR}\downarrow_s$, where $I^{LR}$ and $I^{HR}$ are LR and HR images, $\downarrow_s$ represents bicubic downsampling with scale factor $s$. 
+In this track, bicubic degradation is used to generate LR images: 
+$$
+I^{LR}=I^{HR}\downarrow_s,
+$$
+where $I^{LR}$ and $I^{HR}$ are LR and HR images, $\downarrow_s$ represents bicubic downsampling with scale factor $s$. 
 
 #### Evaluation Metrics:
 Peak signal-to-noise ratio (PSNR) and structural similarity (SSIM) are used as metrics for performance evaluation. The average results of left and right views over all of the test scenes are reported. Note that, only PSNR is used for ranking. 
 
-### Track 2: [Perceptual & Bicubic Degradation](https://codalab.lisn.upsaclay.fr/competitions/10048)
-#### Degradation Model:
-In this track, bicubic degradation (Matlab $imresize$ function in bicubic mode) is used to generate LR images, i.e., $I^{LR}=I^{HR}\downarrow_s$, where $I^{LR}$ and $I^{HR}$ are LR and HR images, $\downarrow_s$ represents bicubic downsampling with scale factor $s$. 
-
-#### Evaluation Metrics:
-Given a pair of stereo SR results, **LPIPS** is used as the metric to evaluate the perceptual quality of separate images. To further evaluate the stereo consistency between an SR image pair, we first use a state-of-the-art stereo matching method (RAFT-Stereo) to obtain a disparity map $D^{HR}$ from an HR image pair as the groundtruth. Then, a disparity map $D^{SR}$ is estimated from the SR image pair. Mean absolute error (MAE) between $D^{SR}$ and $D^{HR}$ is adopted as the metric to measure the stereo consistency. The final score is calculated as:
-
-$score = 1-0.5\times \mathcal{L} \left(I^{SRleft}, I^{HRleft}\right) - 0.5 \times \mathcal{L}\left(I^{SRright}, I^{HRright}\right) - \mathcal{S} \left(D^{SR}, D^{HR} \right),$
-
-where $\mathcal{L}\left(I^{SRleft}, I^{HRleft}\right)$ represents the LPIPS score of $I^{SRleft}$, $\mathcal{S}\left(D^{SR},D^{HR}\right)$ measures the stereo consistency between $I^{SRleft}$ and $I^{SRright}$.
-
-### Track 3: [Fidelity & Realistic Degradation](https://codalab.lisn.upsaclay.fr/competitions/10049)
+### Track 2: [Constrained SR & Realistic Degradation](https://codalab.lisn.upsaclay.fr/competitions/10049)
 #### Degradation Model:
 In this track, a realistic degradation model consisting of blur, downsampling, noise, and compression is adopted to synthesize LR images:
 
-$I^{LR}=\mathcal{C}\left(\left(I^{HR}\otimes{k}\right)\downarrow_s+n\right),$
-
+$$
+I^{LR}=\mathcal{C}\left(\left(I^{HR}\otimes{k}\right)\downarrow_s+n\right),
+$$
 where $k$ is the blur kernel, $n$ is additive Gaussian noise, and $\mathcal{C}$ represents JPEG compression. 
 
 #### Evaluation Metrics:
@@ -69,13 +62,15 @@ PSNR and SSIM are used as metrics for performance evaluation. The average result
 We use [CodaLab]() for online submission in the development phase. **Here, we provide an example ([Jianguoyun Drive](https://www.jianguoyun.com/p/DXWimH4QwOebChipxasE) or [Google Drive](https://drive.google.com/file/d/1gyaan54AwbAYLIIA1rly_wrLzdyQ7VAh/view?usp=sharing)) to help participants to format their submissions.** In the test phase, the final results and the source codes (both training and test) need to be submitted via emails (ntire.stereosr@outlook.com). Please refer to our [online website](https://codalab.lisn.upsaclay.fr/competitions/1598) for details of the submission rules.
 
 ## Important Dates
-* 2023-01-17: Release of training and validation data;
-* 2023-01-30: Validation server online;
-* 2023-03-14: Final test data release, validation server closed;
-* 2023-03-20: Test result submission deadline;
-* 2023-03-20: Fact sheet / code / model submission deadline;
-* 2023-03-22: Test preliminary score release to the participants;
-* 2023-03-31: Challenge paper submission deadline;
+* 2024-01-01: Release of training data, validation data, and test data;
+* 2024-01-05: Validation server online;
+* 2024-03-15: Testing server online;
+* 2024-04-15: Test result submission deadline;
+* 2024-04-15: Fact sheet / code / model submission deadline;
+* 2024-04-18: Test preliminary score release to the participants;
+* 2024-05-10: Challenge paper submission;
+* 2024-05-20: Camera-ready;
+* 2024-06-19: Workshop day;
 <br><br>
 
 ## Group number policy
@@ -93,6 +88,7 @@ You can also join our WeChat group by scanning the code below:
 * [**Yulan Guo**](http://yulanguo.me/) ([yulan.guo@nudt.edu.cn](yulan.guo@nudt.edu.cn))
 * [**Yingqian Wang**](https://yingqianwang.github.io/) ([wangyingqian16@nudt.edu.cn](wangyingqian16@nudt.edu.cn))
 * [**Juncheng Li**](https://junchenglee.com/) ([junchengli@math.cuhk.edu.hk](junchengli@math.cuhk.edu.hk))
+* [**Zhi Jin**](https://scholar.google.com/citations?user=v70dNBoAAAAJ&hl=zh-CN&oi=ao) ([jinzh26@mail.sysu.edu.cn](jinzh26@mail.sysu.edu.cn))
 * [**Shuhang Gu**](https://shuhanggu.github.io/) ([shuhanggu@gmail.com](shuhanggu@gmail.com))
 * [**Radu Timofte**](https://people.ee.ethz.ch/~timofter/) ([Radu.Timofte@vision.ee.ethz.ch](Radu.Timofte@vision.ee.ethz.ch))
 
