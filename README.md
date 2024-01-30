@@ -37,9 +37,7 @@ To rank the submitted models, a test set consisting of 100 stereo images are pro
 ### Track 1: [Constrained SR & Bicubic Degradation](https://codalab.lisn.upsaclay.fr/competitions/10047)
 #### Degradation Model:
 In this track, bicubic degradation is used to generate LR images: 
-$$
-I^{LR}=I^{HR}\downarrow_s,
-$$
+$$I^{LR}=I^{HR}\downarrow_s,$$
 where $I^{LR}$ and $I^{HR}$ are LR and HR images, $\downarrow_s$ represents bicubic downsampling with scale factor $s$. 
 
 #### Evaluation Metrics:
@@ -49,9 +47,8 @@ Peak signal-to-noise ratio (PSNR) and structural similarity (SSIM) are used as m
 #### Degradation Model:
 In this track, a realistic degradation model consisting of blur, downsampling, noise, and compression is adopted to synthesize LR images:
 
-$$
-I^{LR}=\mathcal{C}\left(\left(I^{HR}\otimes{k}\right)\downarrow_s+n\right),
-$$
+$$I^{LR}=\mathcal{C}\left(\left(I^{HR}\otimes{k}\right)\downarrow_s+n\right),$$
+
 where $k$ is the blur kernel, $n$ is additive Gaussian noise, and $\mathcal{C}$ represents JPEG compression. 
 
 #### Evaluation Metrics:
@@ -62,8 +59,8 @@ PSNR and SSIM are used as metrics for performance evaluation. The average result
 We use [CodaLab]() for online submission in the development phase. **Here, we provide an example ([Jianguoyun Drive](https://www.jianguoyun.com/p/DXWimH4QwOebChipxasE) or [Google Drive](https://drive.google.com/file/d/1gyaan54AwbAYLIIA1rly_wrLzdyQ7VAh/view?usp=sharing)) to help participants to format their submissions.** In the test phase, the final results and the source codes (both training and test) need to be submitted via emails (ntire.stereosr@outlook.com). Please refer to our [online website](https://codalab.lisn.upsaclay.fr/competitions/1598) for details of the submission rules.
 
 ## Important Dates
-* 2024-01-01: Release of training data, validation data, and test data;
-* 2024-01-05: Validation server online;
+* 2024-01-29: Release of training data, validation data, and test data;
+* 2024-02-01: Validation server online;
 * 2024-03-15: Testing server online;
 * 2024-04-15: Test result submission deadline;
 * 2024-04-15: Fact sheet / code / model submission deadline;
