@@ -4,7 +4,7 @@
 **Stereo image super-resolution (SR) challenge is held as a part of the [NTIRE workshop](https://cvlai.net/ntire/2024/) in conjunction with CVPR 2024. The goal of this challenge is to develop methods to recover high-resolution (HR) stereo image pairs.** <br>
 
 ## News and Updates:
-* **2024-01-29**: CodaLab servers for [Track1](https://codalab.lisn.upsaclay.fr/competitions/10047) and [Track2](https://codalab.lisn.upsaclay.fr/competitions/10048) are online. Training and validation data has been released.
+* **2024-01-29**: CodaLab servers for [Track1](https://codalab.lisn.upsaclay.fr/competitions/17245) and [Track2](https://codalab.lisn.upsaclay.fr/competitions/17246) are online. Training and validation data has been released.
 
 ## Introduction
 Stereo image pairs can encode 3D scene cues into stereo correspondences between the left and right images. 
@@ -34,7 +34,7 @@ The 112 stereo images in the validation set of the [Flickr1024 dataset](https://
 To rank the submitted models, a test set consisting of 100 stereo images are provided. Different from the training and validation sets, only LR images will be released. The participants are required to apply their models to the released LR stereo images and submit their super-resolved images to the server. It should be noted that the images in the test set (even the LR versions) cannot be used for training.
 
 ## Tracks (NEW!)
-### Track 1: [Constrained SR & Bicubic Degradation](https://codalab.lisn.upsaclay.fr/competitions/10047)
+### Track 1: [Constrained SR & Bicubic Degradation](https://codalab.lisn.upsaclay.fr/competitions/17245)
 #### Degradation Model:
 In this track, bicubic degradation is used to generate LR images: 
 $$I^{LR}=I^{HR}\downarrow_s,$$
@@ -43,7 +43,7 @@ where $I^{LR}$ and $I^{HR}$ are LR and HR images, $\downarrow_s$ represents bicu
 #### Evaluation Metrics:
 Peak signal-to-noise ratio (PSNR) and structural similarity (SSIM) are used as metrics for performance evaluation. The average results of left and right views over all of the test scenes are reported. Note that, only PSNR is used for ranking. 
 
-### Track 2: [Constrained SR & Realistic Degradation](https://codalab.lisn.upsaclay.fr/competitions/10049)
+### Track 2: [Constrained SR & Realistic Degradation](https://codalab.lisn.upsaclay.fr/competitions/17246)
 #### Degradation Model:
 In this track, a realistic degradation model consisting of blur, downsampling, noise, and compression is adopted to synthesize LR images:
 
