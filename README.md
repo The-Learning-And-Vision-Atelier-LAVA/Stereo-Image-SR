@@ -59,15 +59,15 @@ PSNR and SSIM are used as metrics for performance evaluation. The average result
 We use [CodaLab]() for online submission in the development phase. **Here, we provide an example ([Jianguoyun Drive](https://www.jianguoyun.com/p/DXWimH4QwOebChipxasE) or [Google Drive](https://drive.google.com/file/d/1gyaan54AwbAYLIIA1rly_wrLzdyQ7VAh/view?usp=sharing)) to help participants to format their submissions.** In the test phase, the final results and the source codes (both training and test) need to be submitted via emails (ntire.stereosr@outlook.com). Please refer to our [online website](https://codalab.lisn.upsaclay.fr/competitions/1598) for details of the submission rules.
 
 ## Important Dates
-* 2024-01-29: Release of training data, validation data, and test data;
-* 2024-02-01: Validation server online;
+* 2024-01-14: Release of training data, validation data, and test data;
+* 2024-01-30: Validation server online;
 * 2024-03-15: Testing server online;
-* 2024-04-15: Test result submission deadline;
-* 2024-04-15: Fact sheet / code / model submission deadline;
-* 2024-04-18: Test preliminary score release to the participants;
-* 2024-05-10: Challenge paper submission;
-* 2024-05-20: Camera-ready;
-* 2024-06-19: Workshop day;
+* 2024-03-21: Test result submission deadline;
+* 2024-03-22: Fact sheet / code / model submission deadline;
+* 2024-03-24: Test preliminary score release to the participants;
+* 2024-04-05: Challenge paper submission;
+* 2024-04-13: Camera-ready;
+* 2024-06-18 (TBU): Workshop day
 <br><br>
 
 ## Group number policy
@@ -93,6 +93,6 @@ You can also join our WeChat group by scanning the code below:
 We would like to thank **<a href="https://www.flickr.com/photos/stereotron/" target="_blank">Sascha Becher</a>**
  and **<a href="https://www.flickr.com/photos/tombentz" target="_blank">Tom Bentz</a>** for the approval of using their cross-eye stereo photographs. <br>
 
-## NTIRE 2023 Terms and Conditions:
-The terms and conditions of this challenge can be viewed [here](https://codalab.lisn.upsaclay.fr/competitions/1598#learn_the_details-terms_and_conditions).
+## NTIRE 2024 Terms and Conditions:
+The terms and conditions of this challenge can be viewed [here](https://codalab.lisn.upsaclay.fr/competitions/17245#learn_the_details-terms_and_conditions).
 
