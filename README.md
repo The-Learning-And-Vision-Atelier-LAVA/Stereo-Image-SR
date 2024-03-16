@@ -30,7 +30,7 @@ The 800 stereo images in training set of the [Flickr1024 dataset](https://yingqi
 ### Validation Set: *[[JianguoYun](https://www.jianguoyun.com/p/Da4VFtMQstPqChjpkrsFIAA)][[Google Drive](https://drive.google.com/drive/folders/136h3xlftEIc2NzKmDaw-8DlRoiO1ioOO)]*
 The 112 stereo images in the validation set of the [Flickr1024 dataset](https://yingqianwang.github.io/Flickr1024/) are used as the validation set of this challenge. Similar to the training set, both HR and LR images in the validation set are provided. The participants can download the validation set to evaluate the performance of their developed models by comparing their super-resolved images with the HR groundtruth images. **Note that, the validation set should be used for validation purpose only but cannot be used as additional training data.** The participants are encouraged to write papers to describe their methods and use the released validation set for performance evaluation.
 
-### Test Set:
+### Test Set: *[[JianguoYun](https://www.jianguoyun.com/p/Da4VFtMQstPqChjpkrsFIAA)][[Google Drive](https://drive.google.com/drive/folders/136h3xlftEIc2NzKmDaw-8DlRoiO1ioOO?usp=drive_link)]*
 To rank the submitted models, a test set consisting of 100 stereo images are provided. Different from the training and validation sets, only LR images will be released. The participants are required to apply their models to the released LR stereo images and submit their super-resolved images to the server. It should be noted that the images in the test set (even the LR versions) cannot be used for training.
 
 ## Tracks (NEW!)
